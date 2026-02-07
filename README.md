@@ -16,9 +16,9 @@ An interactive app to explore the stories of the 25 Prophets of Islam, with veri
 
 ## Download
 
-[![GitHub Release](https://img.shields.io/github/v/release/latifulkabir/islamic-prophet-stories?label=Download%20APK)](https://github.com/latifulkabir/islamic-prophet-stories/releases/latest)
+[![GitHub Release](https://img.shields.io/github/v/release/Saimon8420/islamic-prophets-stories?label=Download%20APK)](https://github.com/Saimon8420/islamic-prophets-stories/releases/latest)
 
-Download the latest Android APK from the [Releases page](https://github.com/latifulkabir/islamic-prophet-stories/releases).
+Download the latest Android APK from the [Releases page](https://github.com/Saimon8420/islamic-prophets-stories/releases).
 
 ## Tech Stack
 
