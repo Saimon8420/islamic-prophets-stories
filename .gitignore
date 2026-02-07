@@ -6,7 +6,7 @@ dist/
 .vite/
 
 #claude
-.claude
+.claude/
 
 # Capacitor generated platform
 android/
