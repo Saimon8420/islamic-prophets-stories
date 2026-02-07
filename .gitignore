@@ -5,6 +5,9 @@ node_modules/
 dist/
 .vite/
 
+#claude
+.claude
+
 # Capacitor generated platform
 android/
 
