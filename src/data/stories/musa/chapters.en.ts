@@ -2,45 +2,47 @@ import type { StoryChapter } from '../../../types/prophet';
 
 const chapters: StoryChapter[] = [
   {
-    id: 'musa-ch1',
-    title: 'Birth and Rescue',
-    summary: 'Pharaoh was killing the sons of Israel. Allah inspired Musa\'s mother to place him in a chest in the river, and he was rescued by Pharaoh\'s household.',
+    id: 'musa-ch-01',
+    title: 'Birth and Miraculous Rescue',
+    summary: 'Pharaoh decreed the killing of every newborn Israelite male. Allah inspired Musa\'s mother to place her baby in a chest and cast it into the Nile. The infant was rescued by Pharaoh\'s own household and raised in the palace, while Allah reunited him with his mother as his wet nurse.',
     order: 1,
     paragraphs: [
       {
-        id: 'musa-ch1-p1',
-        text: 'Pharaoh had decreed the slaughter of every newborn male among the Children of Israel, fearing that a child would rise to challenge his throne. In the midst of this terror, Allah sent a divine inspiration to the mother of Musa, telling her to nurse her baby and, when she feared for his safety, to place him in a chest and cast it into the river. She was told not to fear and not to grieve, for Allah promised to return him to her and to make him one of the messengers. With complete trust in Allah, she placed her infant son into the Nile, surrendering him to the care of the Lord of the worlds.',
+        id: 'musa-ch01-p01',
+        text: 'The story of Musa (Moses, AS) is the most frequently mentioned prophetic narrative in the Quran. It begins in Egypt, where the Children of Israel lived under the brutal oppression of Pharaoh (Fir\'awn). Pharaoh had seen a dream — or his soothsayers had warned him — that a boy from the Israelites would rise to destroy his kingdom. In response, he ordered the killing of every newborn male among the Israelites while sparing the females for servitude. It was into this climate of terror that Musa was born. Allah sent a divine inspiration to his mother: "Nurse him; but when you fear for him, cast him into the river and do not fear and do not grieve. Indeed, We will return him to you and will make him one of the messengers." With complete trust in Allah, she placed her infant son in a chest and set it upon the waters of the Nile.',
         phase: 'quran',
         references: [
           {
             type: 'quran',
             surah: 28,
-            surahName: { en: 'Al-Qasas', bn: '\u0986\u09B2-\u0995\u09BE\u09B8\u09BE\u09B8', ar: '\u0627\u0644\u0642\u0635\u0635' },
+            surahName: { en: 'Al-Qasas', bn: 'আল-কাসাস', ar: 'القصص' },
             ayahStart: 7,
-            ayahEnd: 9,
+            ayahEnd: 7,
+            arabicText: 'وَأَوْحَيْنَا إِلَىٰ أُمِّ مُوسَىٰ أَنْ أَرْضِعِيهِ ۖ فَإِذَا خِفْتِ عَلَيْهِ فَأَلْقِيهِ فِي الْيَمِّ وَلَا تَخَافِي وَلَا تَحْزَنِي ۖ إِنَّا رَادُّوهُ إِلَيْكِ وَجَاعِلُوهُ مِنَ الْمُرْسَلِينَ',
             translation: {
-              en: 'And We inspired to the mother of Moses, "Suckle him; but when you fear for him, cast him into the river and do not fear and do not grieve. Indeed, We will return him to you and will make him [one] of the messengers."',
-              bn: '\u0986\u09AE\u09BF \u09AE\u09C2\u09B8\u09BE\u09B0 \u09AE\u09BE\u09AF\u09BC\u09C7\u09B0 \u0995\u09BE\u099B\u09C7 \u0993\u09B9\u09C0 \u09AA\u09BE\u09A0\u09BE\u09B2\u09BE\u09AE, "\u09A4\u09BE\u0995\u09C7 \u09A6\u09C1\u09A7 \u09AA\u09BE\u09A8 \u0995\u09B0\u09BE\u0993; \u09AF\u0996\u09A8 \u09A4\u09BE\u09B0 \u09B8\u09AE\u09CD\u09AA\u09B0\u09CD\u0995\u09C7 \u09AD\u09AF\u09BC \u09AA\u09BE\u0993, \u09A4\u09BE\u0995\u09C7 \u09A8\u09A6\u09C0\u09A4\u09C7 \u09AD\u09BE\u09B8\u09BF\u09AF\u09BC\u09C7 \u09A6\u09BE\u0993 \u098F\u09AC\u0982 \u09AD\u09AF\u09BC \u09AA\u09C7\u09AF\u09BC\u09CB \u09A8\u09BE \u0993 \u09A6\u09C1\u0983\u0996 \u0995\u09B0\u09CB \u09A8\u09BE\u0964"',
-              ar: '\u0648\u064E\u0623\u064E\u0648\u0652\u062D\u064E\u064A\u0652\u0646\u064E\u0627 \u0625\u0650\u0644\u0649\u0670 \u0623\u064F\u0645\u0651\u0650 \u0645\u064F\u0648\u0633\u0649\u0670 \u0623\u064E\u0646\u0652 \u0623\u064E\u0631\u0652\u0636\u0650\u0639\u0650\u064A\u0647\u0650 \u06D6 \u0641\u064E\u0625\u0650\u0630\u064E\u0627 \u062E\u0650\u0641\u0652\u062A\u0650 \u0639\u064E\u0644\u064E\u064A\u0652\u0647\u0650 \u0641\u064E\u0623\u064E\u0644\u0652\u0642\u0650\u064A\u0647\u0650 \u0641\u0650\u064A \u0627\u0644\u0652\u064A\u064E\u0645\u0651\u0650 \u0648\u064E\u0644\u064E\u0627 \u062A\u064E\u062E\u064E\u0627\u0641\u0650\u064A \u0648\u064E\u0644\u064E\u0627 \u062A\u064E\u062D\u0652\u0632\u064E\u0646\u0650\u064A'
+              en: 'And We inspired to the mother of Musa, "Nurse him; but when you fear for him, cast him into the river and do not fear and do not grieve. Indeed, We will return him to you and will make him one of the messengers."',
+              bn: 'আমি মূসার মায়ের কাছে ওহী পাঠালাম, "তাকে দুধ পান করাও; যখন তার সম্পর্কে ভয় পাও, তাকে নদীতে ভাসিয়ে দাও এবং ভয় পেয়ো না ও দুঃখ করো না। নিশ্চয়ই আমি তাকে তোমার কাছে ফিরিয়ে দেব এবং তাকে রাসূলদের অন্তর্ভুক্ত করব।"',
+              ar: 'وَأَوْحَيْنَا إِلَىٰ أُمِّ مُوسَىٰ أَنْ أَرْضِعِيهِ ۖ فَإِذَا خِفْتِ عَلَيْهِ فَأَلْقِيهِ فِي الْيَمِّ وَلَا تَخَافِي وَلَا تَحْزَنِي ۖ إِنَّا رَادُّوهُ إِلَيْكِ وَجَاعِلُوهُ مِنَ الْمُرْسَلِينَ'
             }
           }
         ]
       },
       {
-        id: 'musa-ch1-p2',
-        text: 'The chest carrying the infant Musa drifted along the river until it was picked up by the household of Pharaoh. The wife of Pharaoh, Asiyah, looked upon the child and her heart was filled with love. She pleaded with Pharaoh to spare the baby, saying he might benefit them or they could adopt him as a son. Allah caused the infant Musa to refuse the milk of every wet nurse in the palace. Musa\'s sister, who had been following the chest, suggested a woman who could nurse him. Thus Allah returned Musa to his own mother so that she might be comforted and not grieve, and so that she would know that the promise of Allah is always true.',
+        id: 'musa-ch01-p02',
+        text: 'The chest drifted along the Nile until it was picked up by the household of Pharaoh himself. The wife of Pharaoh, Asiyah — one of the most virtuous women in history — looked upon the child and her heart was filled with love. She pleaded with Pharaoh: "He will be a comfort of the eye for me and for you. Do not kill him. Perhaps he may benefit us, or we may adopt him as a son." Allah had placed love for Musa in the hearts of all who saw him. But the infant refused the milk of every wet nurse in the palace. Musa\'s sister, who had been secretly following the chest, approached and suggested: "Shall I direct you to a household that will care for him for you and they will be sincere to him?" Thus Musa was returned to his own mother — fulfilling Allah\'s promise. She nursed him and was even paid for doing so. Allah says: "So We restored him to his mother that she might be content and not grieve and that she would know that the promise of Allah is true." The enemy of Allah unknowingly raised the very child destined to dismantle his kingdom.',
         phase: 'quran',
         references: [
           {
             type: 'quran',
             surah: 28,
-            surahName: { en: 'Al-Qasas', bn: '\u0986\u09B2-\u0995\u09BE\u09B8\u09BE\u09B8', ar: '\u0627\u0644\u0642\u0635\u0635' },
+            surahName: { en: 'Al-Qasas', bn: 'আল-কাসাস', ar: 'القصص' },
             ayahStart: 9,
             ayahEnd: 13,
+            arabicText: 'وَقَالَتِ امْرَأَتُ فِرْعَوْنَ قُرَّتُ عَيْنٍ لِّي وَلَكَ ۖ لَا تَقْتُلُوهُ عَسَىٰ أَن يَنفَعَنَا أَوْ نَتَّخِذَهُ وَلَدًا وَهُمْ لَا يَشْعُرُونَ',
             translation: {
-              en: 'And the wife of Pharaoh said, "[He will be] a comfort of the eye for me and for you. Do not kill him. Perhaps he may benefit us, or we may adopt him as a son." And they perceived not. ... So We restored him to his mother that she might be content and not grieve and that she would know that the promise of Allah is true.',
-              bn: '\u0997\u09B0\u09BE\u0989\u09A8\u09C7\u09B0 \u09B8\u09CD\u09A4\u09CD\u09B0\u09C0 \u09AC\u09B2\u09B2, "\u098F \u09B6\u09BF\u09B6\u09C1 \u0986\u09AE\u09BE\u09B0 \u0993 \u09A4\u09CB\u09AE\u09BE\u09B0 \u099A\u09CB\u0996\u09C7\u09B0 \u09B6\u09C0\u09A4\u09B2\u09A4\u09BE\u0964 \u09A4\u09BE\u0995\u09C7 \u09B9\u09A4\u09CD\u09AF\u09BE \u0995\u09B0\u09CB \u09A8\u09BE\u0964" ... \u098F\u09AD\u09BE\u09AC\u09C7 \u0986\u09AE\u09BF \u09A4\u09BE\u0995\u09C7 \u09A4\u09BE\u09B0 \u09AE\u09BE\u09AF\u09BC\u09C7\u09B0 \u0995\u09BE\u099B\u09C7 \u09AB\u09BF\u09B0\u09BF\u09AF\u09BC\u09C7 \u09A6\u09BF\u09B2\u09BE\u09AE \u09AF\u09BE\u09A4\u09C7 \u09A4\u09BE\u09B0 \u099A\u09CB\u0996 \u099C\u09C1\u09A1\u09BC\u09BE\u09AF\u09BC \u098F\u09AC\u0982 \u09B8\u09C7 \u09A6\u09C1\u0983\u0996 \u09A8\u09BE \u0995\u09B0\u09C7\u0964',
-              ar: '\u0648\u064E\u0642\u064E\u0627\u0644\u064E\u062A\u0650 \u0627\u0645\u0652\u0631\u064E\u0623\u064E\u062A\u064F \u0641\u0650\u0631\u0652\u0639\u064E\u0648\u0652\u0646\u064E \u0642\u064F\u0631\u0651\u064E\u062A\u064F \u0639\u064E\u064A\u0652\u0646\u064D \u0644\u0650\u064A \u0648\u064E\u0644\u064E\u0643\u064E \u06D6 \u0644\u064E\u0627 \u062A\u064E\u0642\u0652\u062A\u064F\u0644\u064F\u0648\u0647\u064F'
+              en: 'And the wife of Pharaoh said, "He will be a comfort of the eye for me and for you. Do not kill him. Perhaps he may benefit us, or we may adopt him as a son." And they perceived not.',
+              bn: 'ফিরাউনের স্ত্রী বলল, "এ শিশু আমার ও তোমার চোখের শীতলতা। তাকে হত্যা করো না। সে আমাদের উপকারে আসতে পারে অথবা আমরা তাকে পুত্র হিসেবে গ্রহণ করতে পারি।"',
+              ar: 'وَقَالَتِ امْرَأَتُ فِرْعَوْنَ قُرَّتُ عَيْنٍ لِّي وَلَكَ ۖ لَا تَقْتُلُوهُ عَسَىٰ أَن يَنفَعَنَا أَوْ نَتَّخِذَهُ وَلَدًا وَهُمْ لَا يَشْعُرُونَ'
             }
           }
         ]
@@ -48,45 +50,47 @@ const chapters: StoryChapter[] = [
     ]
   },
   {
-    id: 'musa-ch2',
+    id: 'musa-ch-02',
     title: 'Flight to Madyan',
-    summary: 'Musa accidentally killed an Egyptian and fled to Madyan, where he helped two women and stayed with their father.',
+    summary: 'As a young man, Musa accidentally killed an Egyptian and fled to Madyan. There he helped two women at a well, married one of them, and spent years in the service of their elderly father before Allah called him to prophethood.',
     order: 2,
     paragraphs: [
       {
-        id: 'musa-ch2-p1',
-        text: 'When Musa reached full strength and maturity, he entered the city at a time when its people were unaware. He found two men fighting — one from his own people, the Children of Israel, and one from the Egyptians. The Israelite called upon Musa for help, and Musa struck the Egyptian with his fist, killing him unintentionally. Musa recognized this as the work of Shaytan and sought forgiveness from Allah. The next day, he learned that the chiefs were plotting to kill him in retaliation. A man came running from the outskirts of the city and warned him to leave. So Musa departed from Egypt, heading toward Madyan, praying to Allah to save him from the wrongdoing people.',
+        id: 'musa-ch02-p01',
+        text: 'Musa grew up in Pharaoh\'s palace but remained conscious of his Israelite identity. One day he entered the city and found two men fighting — one from his people and one Egyptian. The Israelite called upon Musa for help, and Musa struck the Egyptian with his fist, unintentionally killing him. Musa was filled with remorse: "This is from the work of Shaytan. Indeed, he is a manifest, misleading enemy." He prayed: "My Lord, indeed I have wronged myself, so forgive me," and Allah forgave him. The next day, when the chiefs plotted to kill him in retaliation, a man came running from the far end of the city and warned Musa. He fled Egypt immediately, heading toward Madyan, praying: "My Lord, save me from the wrongdoing people."',
         phase: 'quran',
         references: [
           {
             type: 'quran',
             surah: 28,
-            surahName: { en: 'Al-Qasas', bn: '\u0986\u09B2-\u0995\u09BE\u09B8\u09BE\u09B8', ar: '\u0627\u0644\u0642\u0635\u0635' },
+            surahName: { en: 'Al-Qasas', bn: 'আল-কাসাস', ar: 'القصص' },
             ayahStart: 15,
             ayahEnd: 21,
+            arabicText: 'وَدَخَلَ الْمَدِينَةَ عَلَىٰ حِينِ غَفْلَةٍ مِّنْ أَهْلِهَا فَوَجَدَ فِيهَا رَجُلَيْنِ يَقْتَتِلَانِ هَٰذَا مِن شِيعَتِهِ وَهَٰذَا مِنْ عَدُوِّهِ',
             translation: {
-              en: 'And he entered the city at a time of inattention by its people and found therein two men fighting: one from his faction and one from among his enemy. And the one from his faction called for help to him against the one from his enemy, so Moses struck him and [unintentionally] killed him... So he left it, fearful and anticipating [apprehension]. He said, "My Lord, save me from the wrongdoing people."',
-              bn: '\u09B8\u09C7 \u09B6\u09B9\u09B0\u09C7 \u09AA\u09CD\u09B0\u09AC\u09C7\u09B6 \u0995\u09B0\u09B2 \u09AF\u0996\u09A8 \u09B2\u09CB\u0995\u09C7\u09B0\u09BE \u0985\u09B8\u099A\u09C7\u09A4\u09A8 \u099B\u09BF\u09B2 \u098F\u09AC\u0982 \u09B8\u09C7\u0996\u09BE\u09A8\u09C7 \u09A6\u09C1\u099C\u09A8 \u09B2\u09CB\u0995\u0995\u09C7 \u09B2\u09A1\u09BC\u09BE\u0987 \u0995\u09B0\u09A4\u09C7 \u09A6\u09C7\u0996\u09B2... \u09B8\u09C7 \u09AD\u09C0\u09A4 \u0993 \u09B8\u09A4\u09B0\u09CD\u0995 \u0985\u09AC\u09B8\u09CD\u09A5\u09BE\u09AF\u09BC \u09B8\u09C7\u0996\u09BE\u09A8 \u09A5\u09C7\u0995\u09C7 \u09AC\u09C7\u09B0 \u09B9\u09AF\u09BC\u09C7 \u0997\u09C7\u09B2\u0964',
-              ar: '\u0648\u064E\u062F\u064E\u062E\u064E\u0644\u064E \u0627\u0644\u0652\u0645\u064E\u062F\u0650\u064A\u0646\u064E\u0629\u064E \u0639\u064E\u0644\u0649\u0670 \u062D\u0650\u064A\u0646\u0650 \u063A\u064E\u0641\u0652\u0644\u064E\u0629\u064D \u0645\u0651\u0650\u0646\u0652 \u0623\u064E\u0647\u0652\u0644\u0650\u0647\u064E\u0627'
+              en: 'And he entered the city at a time of inattention by its people and found therein two men fighting: one from his faction and one from among his enemy. And the one from his faction called for help against the other.',
+              bn: 'সে শহরে প্রবেশ করল যখন লোকেরা অসচেতন ছিল এবং সেখানে দুজন লোককে লড়াই করতে দেখল: একজন তার দলের এবং একজন তার শত্রুর।',
+              ar: 'وَدَخَلَ الْمَدِينَةَ عَلَىٰ حِينِ غَفْلَةٍ مِّنْ أَهْلِهَا فَوَجَدَ فِيهَا رَجُلَيْنِ يَقْتَتِلَانِ هَٰذَا مِن شِيعَتِهِ وَهَٰذَا مِنْ عَدُوِّهِ'
             }
           }
         ]
       },
       {
-        id: 'musa-ch2-p2',
-        text: 'When Musa arrived at the well of Madyan, he found a group of men watering their flocks while two women stood apart, holding their sheep back. He asked them what was the matter. They explained that they could not water their flock until the shepherds had finished, and that their father was an old man. Musa watered their flock for them out of pure goodness, then withdrew to the shade and prayed to Allah, saying he was in need of whatever good Allah might send down to him. One of the women returned, walking shyly, and told Musa that her father invited him so he could reward him for watering their flock. Musa went to the old man, told him his story, and the man said to him, "Do not fear. You have escaped from the wrongdoing people." Musa stayed with him and married one of his daughters after completing a term of service.',
+        id: 'musa-ch02-p02',
+        text: 'When Musa arrived at the well of Madyan, he found a crowd of shepherds watering their flocks while two women stood apart, holding their sheep back. He asked them what was the matter. They said: "We do not water until the shepherds have finished, and our father is an old man." Musa watered their flock for them out of pure goodness, then withdrew to the shade and made one of the most beautiful supplications in the Quran: "My Lord, indeed I am, for whatever good You would send down to me, in need." One of the women returned, walking shyly, and said her father invited him to reward him. The old man — identified by many scholars as Prophet Shu\'ayb — said: "Do not fear. You have escaped from the wrongdoing people." Musa married one of his daughters and spent years in Madyan, fulfilling a term of service, before setting out on the journey that would change his life forever.',
         phase: 'quran',
         references: [
           {
             type: 'quran',
             surah: 28,
-            surahName: { en: 'Al-Qasas', bn: '\u0986\u09B2-\u0995\u09BE\u09B8\u09BE\u09B8', ar: '\u0627\u0644\u0642\u0635\u0635' },
-            ayahStart: 23,
-            ayahEnd: 28,
+            surahName: { en: 'Al-Qasas', bn: 'আল-কাসাস', ar: 'القصص' },
+            ayahStart: 24,
+            ayahEnd: 25,
+            arabicText: 'فَسَقَىٰ لَهُمَا ثُمَّ تَوَلَّىٰ إِلَى الظِّلِّ فَقَالَ رَبِّ إِنِّي لِمَا أَنزَلْتَ إِلَيَّ مِنْ خَيْرٍ فَقِيرٌ فَجَاءَتْهُ إِحْدَاهُمَا تَمْشِي عَلَى اسْتِحْيَاءٍ',
             translation: {
-              en: 'And when he came to the well of Madyan, he found there a crowd of people watering [their flocks], and he found aside from them two women driving back [their flocks]. He said, "What is your circumstance?" They said, "We do not water until the shepherds dispatch [their flocks]; and our father is an old man." So he watered [their flocks] for them...',
-              bn: '\u09AF\u0996\u09A8 \u09B8\u09C7 \u09AE\u09BE\u09A6\u09AF\u09BC\u09BE\u09A8\u09C7\u09B0 \u0995\u09C2\u09AA\u09C7 \u09AA\u09CC\u0981\u099B\u09B2, \u09B8\u09C7 \u09B8\u09C7\u0996\u09BE\u09A8\u09C7 \u098F\u0995 \u09A6\u09B2 \u09B2\u09CB\u0995\u0995\u09C7 \u09A4\u09BE\u09A6\u09C7\u09B0 \u09AA\u09B6\u09C1\u09AA\u09BE\u09B2\u0995\u09C7 \u09AA\u09BE\u09A8\u09BF \u09AA\u09BE\u09A8 \u0995\u09B0\u09BE\u09A4\u09C7 \u09A6\u09C7\u0996\u09B2 \u098F\u09AC\u0982 \u09A4\u09BE\u09A6\u09C7\u09B0 \u09AA\u09BE\u09B6\u09C7 \u09A6\u09C1\u099C\u09A8 \u09AE\u09B9\u09BF\u09B2\u09BE\u0995\u09C7 \u09A4\u09BE\u09A6\u09C7\u09B0 \u09AA\u09B6\u09C1 \u0986\u099F\u0995\u09C7 \u09B0\u09BE\u0996\u09A4\u09C7 \u09A6\u09C7\u0996\u09B2\u0964',
-              ar: '\u0648\u064E\u0644\u064E\u0645\u0651\u064E\u0627 \u0648\u064E\u0631\u064E\u062F\u064E \u0645\u064E\u0627\u0621\u064E \u0645\u064E\u062F\u0652\u064A\u064E\u0646\u064E \u0648\u064E\u062C\u064E\u062F\u064E \u0639\u064E\u0644\u064E\u064A\u0652\u0647\u0650 \u0623\u064F\u0645\u0651\u064E\u0629\u064B \u0645\u0651\u0650\u0646\u064E \u0627\u0644\u0646\u0651\u064E\u0627\u0633\u0650 \u064A\u064E\u0633\u0652\u0642\u064F\u0648\u0646\u064E'
+              en: 'So he watered [their flocks] for them; then he withdrew to the shade and said, "My Lord, indeed I am, for whatever good You would send down to me, in need." Then one of the two women came to him walking with shyness.',
+              bn: 'সে তাদের জন্য পানি তুলে দিল; তারপর ছায়ায় সরে গিয়ে বলল, "হে আমার রব, তুমি আমার প্রতি যে কল্যাণ নাযিল করবে, আমি তার মুখাপেক্ষী।" তারপর তাদের একজন লজ্জাবনতভাবে হেঁটে তার কাছে এলো।',
+              ar: 'فَسَقَىٰ لَهُمَا ثُمَّ تَوَلَّىٰ إِلَى الظِّلِّ فَقَالَ رَبِّ إِنِّي لِمَا أَنزَلْتَ إِلَيَّ مِنْ خَيْرٍ فَقِيرٌ فَجَاءَتْهُ إِحْدَاهُمَا تَمْشِي عَلَى اسْتِحْيَاءٍ'
             }
           }
         ]
@@ -94,45 +98,47 @@ const chapters: StoryChapter[] = [
     ]
   },
   {
-    id: 'musa-ch3',
-    title: 'The Burning Bush',
-    summary: 'While traveling with his family, Musa saw a fire. Allah spoke to him from the burning bush and gave him two signs, commanding him to go to Pharaoh.',
+    id: 'musa-ch-03',
+    title: 'The Burning Bush: Allah Speaks to Musa',
+    summary: 'While traveling with his family, Musa saw a fire on the side of Mount Tur. Allah spoke to him directly, granted him two miraculous signs — the staff and the radiant hand — and commanded him to go to Pharaoh.',
     order: 3,
     paragraphs: [
       {
-        id: 'musa-ch3-p1',
-        text: 'After completing his term in Madyan, Musa set out on a journey with his family. During the night, he noticed a fire on the side of Mount Tur. He told his family to wait while he went to investigate, hoping to bring back a burning brand or find guidance. When he approached the fire, a voice called out to him: "O Musa, indeed I am your Lord, so remove your sandals. Indeed, you are in the sacred valley of Tuwa." Allah then showed Musa two mighty signs: He commanded him to throw down his staff, and it became a serpent, moving swiftly. Musa was told to seize it without fear. Allah also commanded him to draw his hand close to his side, and when he withdrew it, it shone brilliant white without any disease. These were proofs of his prophethood.',
+        id: 'musa-ch03-p01',
+        text: 'After completing his term in Madyan, Musa set out on a journey with his family. During the cold desert night, he noticed a fire on the side of Mount Tur (Sinai). He told his family to wait while he went to investigate, hoping to bring back a burning brand or find guidance at the fire. When he approached, a voice called out: "O Musa, indeed I am your Lord, so remove your sandals. Indeed, you are in the sacred valley of Tuwa." This was the moment Musa became the only prophet in history to whom Allah spoke directly — earning the title "Kalimullah" (the One Who Spoke with Allah). Allah said: "Indeed, I am Allah. There is no deity except Me, so worship Me and establish prayer for My remembrance."',
         phase: 'quran',
         references: [
           {
             type: 'quran',
             surah: 20,
-            surahName: { en: 'Ta-Ha', bn: '\u09A4\u09CD\u09AC\u09BE-\u09B9\u09BE', ar: '\u0637\u0647' },
-            ayahStart: 9,
-            ayahEnd: 23,
+            surahName: { en: 'Ta-Ha', bn: 'তা-হা', ar: 'طه' },
+            ayahStart: 11,
+            ayahEnd: 14,
+            arabicText: 'فَلَمَّا أَتَاهَا نُودِيَ يَا مُوسَىٰ إِنِّي أَنَا رَبُّكَ فَاخْلَعْ نَعْلَيْكَ ۖ إِنَّكَ بِالْوَادِ الْمُقَدَّسِ طُوًى وَأَنَا اخْتَرْتُكَ فَاسْتَمِعْ لِمَا يُوحَىٰ إِنَّنِي أَنَا اللَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدْنِي وَأَقِمِ الصَّلَاةَ لِذِكْرِي',
             translation: {
-              en: 'And has the story of Moses reached you? When he saw a fire and said to his family, "Stay here; indeed, I have perceived a fire; perhaps I can bring you a torch or find at the fire some guidance." And when he came to it, he was called, "O Moses, indeed I am your Lord, so remove your sandals. Indeed, you are in the sacred valley of Tuwa."',
-              bn: '\u0986\u09AA\u09A8\u09BE\u09B0 \u0995\u09BE\u099B\u09C7 \u0995\u09BF \u09AE\u09C2\u09B8\u09BE\u09B0 \u09AC\u09C3\u09A4\u09CD\u09A4\u09BE\u09A8\u09CD\u09A4 \u09AA\u09CC\u0981\u099B\u09C7\u099B\u09C7? \u09AF\u0996\u09A8 \u09B8\u09C7 \u0986\u0997\u09C1\u09A8 \u09A6\u09C7\u0996\u09B2 \u098F\u09AC\u0982 \u09A4\u09BE\u09B0 \u09AA\u09B0\u09BF\u09AC\u09BE\u09B0\u0995\u09C7 \u09AC\u09B2\u09B2, "\u09A4\u09CB\u09AE\u09B0\u09BE \u098F\u0996\u09BE\u09A8\u09C7 \u09A5\u09BE\u0995\u09CB\u0964" \u09AF\u0996\u09A8 \u09B8\u09C7 \u0986\u0997\u09C1\u09A8\u09C7\u09B0 \u0995\u09BE\u099B\u09C7 \u098F\u09B2, \u09A4\u09BE\u0995\u09C7 \u09A1\u09BE\u0995\u09BE \u09B9\u09B2, "\u09B9\u09C7 \u09AE\u09C2\u09B8\u09BE, \u0986\u09AE\u09BF\u0987 \u09A4\u09CB\u09AE\u09BE\u09B0 \u09B0\u09AC\u0964"',
-              ar: '\u0648\u064E\u0647\u064E\u0644\u0652 \u0623\u064E\u062A\u064E\u0627\u0643\u064E \u062D\u064E\u062F\u0650\u064A\u062B\u064F \u0645\u064F\u0648\u0633\u0649\u0670 \u0625\u0650\u0630\u0652 \u0631\u064E\u0623\u0649\u0670 \u0646\u064E\u0627\u0631\u064B\u0627 \u0641\u064E\u0642\u064E\u0627\u0644\u064E \u0644\u0650\u0623\u064E\u0647\u0652\u0644\u0650\u0647\u0650 \u0627\u0645\u0652\u0643\u064F\u062B\u064F\u0648\u0627'
+              en: 'When he came to it, he was called, "O Musa, indeed I am your Lord, so remove your sandals. Indeed, you are in the sacred valley of Tuwa. And I have chosen you, so listen to what is revealed. Indeed, I am Allah. There is no deity except Me, so worship Me and establish prayer for My remembrance."',
+              bn: 'যখন সে আগুনের কাছে এলো, তাকে ডাকা হলো, "হে মূসা, আমিই তোমার রব, তোমার জুতো খুলে ফেল। তুমি পবিত্র উপত্যকা তুওয়ায় আছ। আমিই আল্লাহ, আমি ছাড়া কোনো ইলাহ নেই, সুতরাং আমার ইবাদত কর এবং আমার স্মরণে সালাত কায়েম কর।"',
+              ar: 'فَلَمَّا أَتَاهَا نُودِيَ يَا مُوسَىٰ إِنِّي أَنَا رَبُّكَ فَاخْلَعْ نَعْلَيْكَ ۖ إِنَّكَ بِالْوَادِ الْمُقَدَّسِ طُوًى وَأَنَا اخْتَرْتُكَ فَاسْتَمِعْ لِمَا يُوحَىٰ إِنَّنِي أَنَا اللَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدْنِي وَأَقِمِ الصَّلَاةَ لِذِكْرِي'
             }
           }
         ]
       },
       {
-        id: 'musa-ch3-p2',
-        text: 'After being granted these signs, Allah commanded Musa to go to Pharaoh, who had transgressed all bounds. Musa supplicated to Allah to expand his chest, ease his task, remove the impediment from his tongue so that people would understand him, and appoint his brother Harun as his helper and partner in the mission. Allah granted every one of Musa\'s requests, saying: "You have been granted your request, O Musa." Thus began the greatest prophetic mission to the mightiest tyrant of that era.',
+        id: 'musa-ch03-p02',
+        text: 'Allah showed Musa two mighty signs. He commanded him to throw down his staff, and it became a serpent, moving swiftly. Musa was told to pick it up without fear, and it returned to its original form. Then Allah commanded him to place his hand into his garment, and when he withdrew it, it shone brilliant white — not from disease, but as a radiant sign of divine power. Allah then commanded Musa to go to Pharaoh with these signs, for Pharaoh had transgressed all bounds. Musa prayed: "My Lord, expand my chest for me and ease my task and untie the knot from my tongue that they may understand my speech. And appoint for me a minister from my family — Harun, my brother." Allah granted every request, saying: "You have been granted your request, O Musa." Thus began one of the greatest prophetic missions in history — a shepherd from Madyan sent to confront the mightiest tyrant on earth.',
         phase: 'quran',
         references: [
           {
             type: 'quran',
             surah: 20,
-            surahName: { en: 'Ta-Ha', bn: '\u09A4\u09CD\u09AC\u09BE-\u09B9\u09BE', ar: '\u0637\u0647' },
-            ayahStart: 24,
+            surahName: { en: 'Ta-Ha', bn: 'তা-হা', ar: 'طه' },
+            ayahStart: 25,
             ayahEnd: 36,
+            arabicText: 'قَالَ رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي يَفْقَهُوا قَوْلِي وَاجْعَل لِّي وَزِيرًا مِّنْ أَهْلِي هَارُونَ أَخِي',
             translation: {
-              en: '"Go to Pharaoh. Indeed, he has transgressed." [Moses] said, "My Lord, expand for me my breast and ease for me my task and untie the knot from my tongue that they may understand my speech. And appoint for me a minister from my family - Aaron, my brother." ... [Allah] said, "You have been granted your request, O Moses."',
-              bn: '"\u09AB\u09BF\u09B0\u09BE\u0989\u09A8\u09C7\u09B0 \u0995\u09BE\u099B\u09C7 \u09AF\u09BE\u0993\u0964 \u09B8\u09C7 \u09B8\u09C0\u09AE\u09BE\u09B2\u0982\u0998\u09A8 \u0995\u09B0\u09C7\u099B\u09C7\u0964" \u09AE\u09C2\u09B8\u09BE \u09AC\u09B2\u09B2, "\u09B9\u09C7 \u0986\u09AE\u09BE\u09B0 \u09B0\u09AC, \u0986\u09AE\u09BE\u09B0 \u09AC\u0995\u09CD\u09B7 \u09AA\u09CD\u09B0\u09B6\u09B8\u09CD\u09A4 \u0995\u09B0\u09C1\u09A8 \u098F\u09AC\u0982 \u0986\u09AE\u09BE\u09B0 \u0995\u09BE\u099C \u09B8\u09B9\u099C \u0995\u09B0\u09C1\u09A8\u0964" ... \u0986\u09B2\u09CD\u09B2\u09BE\u09B9 \u09AC\u09B2\u09B2\u09C7\u09A8, "\u09A4\u09CB\u09AE\u09BE\u09B0 \u09AA\u09CD\u09B0\u09BE\u09B0\u09CD\u09A5\u09A8\u09BE \u09AE\u099E\u09CD\u099C\u09C1\u09B0 \u09B9\u09B2\u09CB, \u09B9\u09C7 \u09AE\u09C2\u09B8\u09BE\u0964"',
-              ar: '\u0627\u0630\u0652\u0647\u064E\u0628\u0652 \u0625\u0650\u0644\u0649\u0670 \u0641\u0650\u0631\u0652\u0639\u064E\u0648\u0652\u0646\u064E \u0625\u0650\u0646\u0651\u064E\u0647\u064F \u0637\u064E\u063A\u0649\u0670'
+              en: '[Musa] said, "My Lord, expand for me my breast and ease for me my task and untie the knot from my tongue that they may understand my speech. And appoint for me a minister from my family — Harun, my brother."',
+              bn: 'মূসা বলল, "হে আমার রব, আমার বক্ষ প্রশস্ত করে দাও, আমার কাজ সহজ করে দাও, আমার জিহ্বার জড়তা দূর করে দাও যাতে তারা আমার কথা বুঝতে পারে। আমার পরিবার থেকে একজন সাহায্যকারী নিযুক্ত কর — আমার ভাই হারূন।"',
+              ar: 'قَالَ رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي يَفْقَهُوا قَوْلِي وَاجْعَل لِّي وَزِيرًا مِّنْ أَهْلِي هَارُونَ أَخِي'
             }
           }
         ]
@@ -140,136 +146,47 @@ const chapters: StoryChapter[] = [
     ]
   },
   {
-    id: 'musa-ch4',
-    title: 'Confrontation with Pharaoh',
-    summary: 'Musa and Harun went to Pharaoh calling him to worship Allah. Pharaoh summoned his magicians, but they were defeated and believed in Allah.',
+    id: 'musa-ch-04',
+    title: 'Confrontation with Pharaoh and the Defeat of the Magicians',
+    summary: 'Musa and Harun went to Pharaoh as messengers of Allah. Pharaoh arrogantly rejected them and summoned his best magicians. In a grand public contest, Musa\'s staff swallowed the magicians\' sorcery. The magicians recognized the truth and believed, even as Pharaoh threatened them with death.',
     order: 4,
     paragraphs: [
       {
-        id: 'musa-ch4-p1',
-        text: 'Musa and Harun went to Pharaoh as messengers from the Lord of all the worlds. Pharaoh, arrogant and defiant, rejected their call to worship Allah alone. He asked Musa for proof, and Musa threw down his staff, which became a clear serpent. He drew out his hand, and it shone brilliant white for all to see. Pharaoh\'s advisors declared Musa a skilled magician who sought to drive them from their land. Pharaoh then gathered the most skilled magicians from across his kingdom to compete against Musa on a grand public occasion.',
-        phase: 'quran',
-        references: [
-          {
-            type: 'quran',
-            surah: 7,
-            surahName: { en: 'Al-Araf', bn: '\u0986\u09B2-\u0986\u09B0\u09BE\u09AB', ar: '\u0627\u0644\u0623\u0639\u0631\u0627\u0641' },
-            ayahStart: 103,
-            ayahEnd: 112,
-            translation: {
-              en: 'Then after them We sent Moses with Our signs to Pharaoh and his establishment, but they were unjust toward them. And Moses said, "O Pharaoh, I am a messenger from the Lord of the worlds."',
-              bn: '\u09A4\u09BE\u09B0\u09AA\u09B0 \u09A4\u09BE\u09A6\u09C7\u09B0 \u09AA\u09B0\u09C7 \u0986\u09AE\u09BF \u09AE\u09C2\u09B8\u09BE\u0995\u09C7 \u0986\u09AE\u09BE\u09B0 \u09A8\u09BF\u09A6\u09B0\u09CD\u09B6\u09A8\u09B8\u09AE\u09C2\u09B9 \u09B8\u09B9 \u09AB\u09BF\u09B0\u09BE\u0989\u09A8 \u0993 \u09A4\u09BE\u09B0 \u09AA\u09BE\u09B0\u09BF\u09B7\u09A6\u09A6\u09C7\u09B0 \u0995\u09BE\u099B\u09C7 \u09AA\u09BE\u09A0\u09BE\u09B2\u09BE\u09AE\u0964 \u09AE\u09C2\u09B8\u09BE \u09AC\u09B2\u09B2, "\u09B9\u09C7 \u09AB\u09BF\u09B0\u09BE\u0989\u09A8, \u0986\u09AE\u09BF \u09AC\u09BF\u09B6\u09CD\u09AC\u099C\u0997\u09A4\u09C7\u09B0 \u09B0\u09AC\u09C7\u09B0 \u09AA\u0995\u09CD\u09B7 \u09A5\u09C7\u0995\u09C7 \u09B0\u09BE\u09B8\u09C2\u09B2\u0964"',
-              ar: '\u062B\u064F\u0645\u0651\u064E \u0628\u064E\u0639\u064E\u062B\u0652\u0646\u064E\u0627 \u0645\u0650\u0646 \u0628\u064E\u0639\u0652\u062F\u0650\u0647\u0650\u0645 \u0645\u0651\u064F\u0648\u0633\u0649\u0670 \u0628\u0650\u0622\u064A\u064E\u0627\u062A\u0650\u0646\u064E\u0627 \u0625\u0650\u0644\u0649\u0670 \u0641\u0650\u0631\u0652\u0639\u064E\u0648\u0652\u0646\u064E \u0648\u064E\u0645\u064E\u0644\u064E\u0626\u0650\u0647\u0650'
-            }
-          }
-        ]
-      },
-      {
-        id: 'musa-ch4-p2',
-        text: 'The magicians threw down their ropes and staffs, which appeared through their sorcery to move like serpents. The people were terrified. But when Musa threw down his staff, it swallowed everything the magicians had fabricated. The truth was made manifest, and the magicians, who were the most qualified to distinguish sorcery from a genuine miracle, immediately recognized the truth. They fell into prostration, declaring: "We believe in the Lord of the worlds, the Lord of Musa and Harun." Pharaoh was enraged and threatened them with mutilation and crucifixion, but the magicians, now filled with faith, refused to recant.',
-        phase: 'quran',
-        references: [
-          {
-            type: 'quran',
-            surah: 7,
-            surahName: { en: 'Al-Araf', bn: '\u0986\u09B2-\u0986\u09B0\u09BE\u09AB', ar: '\u0627\u0644\u0623\u0639\u0631\u0627\u0641' },
-            ayahStart: 113,
-            ayahEnd: 126,
-            translation: {
-              en: 'And the magicians came to Pharaoh... So when they threw, they bewitched the eyes of the people and struck terror into them... And We inspired to Moses, "Throw your staff," and at once it devoured what they were falsifying. So the truth was established... And the magicians fell down in prostration. They said, "We have believed in the Lord of the worlds."',
-              bn: '\u09AF\u09BE\u09A6\u09C1\u0995\u09B0\u09B0\u09BE \u09AB\u09BF\u09B0\u09BE\u0989\u09A8\u09C7\u09B0 \u0995\u09BE\u099B\u09C7 \u098F\u09B2\u09CB... \u09A4\u09BE\u09B0\u09BE \u09AF\u0996\u09A8 \u09A8\u09BF\u0995\u09CD\u09B7\u09C7\u09AA \u0995\u09B0\u09B2, \u09AE\u09BE\u09A8\u09C1\u09B7\u09C7\u09B0 \u099A\u09CB\u0996\u09C7 \u09AF\u09BE\u09A6\u09C1 \u0995\u09B0\u09B2... \u0986\u09AE\u09BF \u09AE\u09C2\u09B8\u09BE\u0995\u09C7 \u0993\u09B9\u09C0 \u0995\u09B0\u09B2\u09BE\u09AE, "\u09A4\u09CB\u09AE\u09BE\u09B0 \u09B2\u09BE\u09A0\u09BF \u09A8\u09BF\u0995\u09CD\u09B7\u09C7\u09AA \u0995\u09B0\u09CB\u0964" \u09B8\u09A4\u09CD\u09AF \u09AA\u09CD\u09B0\u09A4\u09BF\u09B7\u09CD\u09A0\u09BF\u09A4 \u09B9\u09B2\u09CB... \u09AF\u09BE\u09A6\u09C1\u0995\u09B0\u09B0\u09BE \u09B8\u09BF\u099C\u09A6\u09BE\u09AF\u09BC \u09B2\u09C1\u099F\u09BF\u09AF\u09BC\u09C7 \u09AA\u09A1\u09BC\u09B2\u0964',
-              ar: '\u0648\u064E\u062C\u064E\u0627\u0621\u064E \u0627\u0644\u0633\u0651\u064E\u062D\u064E\u0631\u064E\u0629\u064F \u0641\u0650\u0631\u0652\u0639\u064E\u0648\u0652\u0646\u064E'
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    id: 'musa-ch5',
-    title: 'The Plagues and Exodus',
-    summary: 'Allah sent plagues upon Egypt but Pharaoh refused to release the Children of Israel. Allah then commanded Musa to lead his people out by night.',
-    order: 5,
-    paragraphs: [
-      {
-        id: 'musa-ch5-p1',
-        text: 'Despite the clear defeat of the magicians, Pharaoh refused to believe and continued to oppress the Children of Israel. Allah then sent upon Pharaoh and his people a series of devastating signs: the flood, the locusts, the lice, the frogs, and the blood. Each time a plague struck, Pharaoh would call upon Musa to pray to his Lord to remove it, promising to let the Children of Israel go. But each time the plague was lifted, Pharaoh broke his word and returned to his arrogance. They were a people who committed crimes against Allah and His messenger.',
-        phase: 'quran',
-        references: [
-          {
-            type: 'quran',
-            surah: 7,
-            surahName: { en: 'Al-Araf', bn: '\u0986\u09B2-\u0986\u09B0\u09BE\u09AB', ar: '\u0627\u0644\u0623\u0639\u0631\u0627\u0641' },
-            ayahStart: 130,
-            ayahEnd: 136,
-            translation: {
-              en: 'And We certainly seized the people of Pharaoh with years of famine and a deficiency in fruits that perhaps they would be reminded. ... So We sent upon them the flood and locusts and lice and frogs and blood as distinct signs, but they were arrogant and were a criminal people.',
-              bn: '\u0986\u09AE\u09BF \u09AB\u09BF\u09B0\u09BE\u0989\u09A8\u09C7\u09B0 \u09B8\u09AE\u09CD\u09AA\u09CD\u09B0\u09A6\u09BE\u09AF\u09BC\u0995\u09C7 \u09A6\u09C1\u09B0\u09CD\u09AD\u09BF\u0995\u09CD\u09B7 \u0993 \u09AB\u09B2\u09C7\u09B0 \u0985\u09AD\u09BE\u09AC\u09C7 \u09AA\u09BE\u0995\u09A1\u09BC\u09BE\u0993 \u0995\u09B0\u09B2\u09BE\u09AE... \u0986\u09AE\u09BF \u09A4\u09BE\u09A6\u09C7\u09B0 \u0989\u09AA\u09B0 \u09AC\u09A8\u09CD\u09AF\u09BE, \u09AA\u0999\u09CD\u0997\u09AA\u09BE\u09B2, \u0989\u0995\u09C1\u09A8, \u09AC\u09CD\u09AF\u09BE\u0999 \u0993 \u09B0\u0995\u09CD\u09A4 \u09AA\u09BE\u09A0\u09BE\u09B2\u09BE\u09AE \u09B8\u09CD\u09AA\u09B7\u09CD\u099F \u09A8\u09BF\u09A6\u09B0\u09CD\u09B6\u09A8 \u09B9\u09BF\u09B8\u09C7\u09AC\u09C7\u0964',
-              ar: '\u0641\u064E\u0623\u064E\u0631\u0652\u0633\u064E\u0644\u0652\u0646\u064E\u0627 \u0639\u064E\u0644\u064E\u064A\u0652\u0647\u0650\u0645\u064F \u0627\u0644\u0637\u0651\u064F\u0648\u0641\u064E\u0627\u0646\u064E \u0648\u064E\u0627\u0644\u0652\u062C\u064E\u0631\u064E\u0627\u062F\u064E \u0648\u064E\u0627\u0644\u0652\u0642\u064F\u0645\u0651\u064E\u0644\u064E \u0648\u064E\u0627\u0644\u0636\u0651\u064E\u0641\u064E\u0627\u062F\u0650\u0639\u064E \u0648\u064E\u0627\u0644\u062F\u0651\u064E\u0645\u064E \u0622\u064A\u064E\u0627\u062A\u064D \u0645\u0651\u064F\u0641\u064E\u0635\u0651\u064E\u0644\u064E\u0627\u062A\u064D'
-            }
-          }
-        ]
-      },
-      {
-        id: 'musa-ch5-p2',
-        text: 'Finally, Allah commanded Musa to lead the Children of Israel out of Egypt by night. They departed under the cover of darkness, and when Pharaoh learned of their escape, he mobilized his entire army and pursued them at dawn.',
-        phase: 'quran',
-        references: [
-          {
-            type: 'quran',
-            surah: 20,
-            surahName: { en: 'Ta-Ha', bn: '\u09A4\u09CD\u09AC\u09BE-\u09B9\u09BE', ar: '\u0637\u0647' },
-            ayahStart: 77,
-            translation: {
-              en: 'And We had inspired to Moses, "Travel by night with My servants and strike for them a dry path through the sea; you will not fear being overtaken [by Pharaoh] nor be afraid [of drowning]."',
-              bn: '\u0986\u09AE\u09BF \u09AE\u09C2\u09B8\u09BE\u09B0 \u0995\u09BE\u099B\u09C7 \u0993\u09B9\u09C0 \u09AA\u09BE\u09A0\u09BE\u09B2\u09BE\u09AE, "\u0986\u09AE\u09BE\u09B0 \u09AC\u09BE\u09A8\u09CD\u09A6\u09BE\u09A6\u09C7\u09B0 \u09A8\u09BF\u09AF\u09BC\u09C7 \u09B0\u09BE\u09A4\u09C7 \u09AC\u09C7\u09B0 \u09B9\u0993 \u098F\u09AC\u0982 \u09A4\u09BE\u09A6\u09C7\u09B0 \u099C\u09A8\u09CD\u09AF \u09B8\u09AE\u09C1\u09A6\u09CD\u09B0\u09C7 \u09B6\u09C1\u0995\u09A8\u09CB \u09AA\u09A5 \u09AC\u09BE\u09A8\u09BE\u0993\u0964"',
-              ar: '\u0648\u064E\u0644\u064E\u0642\u064E\u062F\u0652 \u0623\u064E\u0648\u0652\u062D\u064E\u064A\u0652\u0646\u064E\u0627 \u0625\u0650\u0644\u0649\u0670 \u0645\u064F\u0648\u0633\u0649\u0670 \u0623\u064E\u0646\u0652 \u0623\u064E\u0633\u0652\u0631\u0650 \u0628\u0650\u0639\u0650\u0628\u064E\u0627\u062F\u0650\u064A \u0641\u064E\u0627\u0636\u0652\u0631\u0650\u0628\u0652 \u0644\u064E\u0647\u064F\u0645\u0652 \u0637\u064E\u0631\u0650\u064A\u0642\u064B\u0627 \u0641\u0650\u064A \u0627\u0644\u0652\u0628\u064E\u062D\u0652\u0631\u0650 \u064A\u064E\u0628\u064E\u0633\u064B\u0627'
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    id: 'musa-ch6',
-    title: 'Parting of the Sea',
-    summary: 'Pharaoh pursued the Israelites. Allah commanded Musa to strike the sea with his staff. The sea parted and the Israelites crossed safely while Pharaoh drowned.',
-    order: 6,
-    paragraphs: [
-      {
-        id: 'musa-ch6-p1',
-        text: 'Pharaoh mobilized his army and pursued the Children of Israel. When the two groups came within sight of each other by the sea, the companions of Musa cried out in fear: "Indeed, we are to be overtaken!" But Musa, firm in his trust in Allah, declared: "No! Indeed, with me is my Lord; He will guide me." Allah then inspired Musa to strike the sea with his staff. When he struck it, the sea parted into two towering walls of water, and a dry path appeared through the middle. The Children of Israel crossed in safety between the walls of the sea.',
+        id: 'musa-ch04-p01',
+        text: 'Musa and Harun went to Pharaoh as messengers from the Lord of all the worlds. Pharaoh, in his arrogance, demanded: "And what is the Lord of the worlds?" Musa replied: "The Lord of the heavens and the earth and that between them, if you should be convinced." Pharaoh mocked him before his courtiers. When Musa presented his signs — the staff that became a serpent and the radiant hand — Pharaoh\'s advisors dismissed them as skilled sorcery and proposed a grand contest between Musa and the finest magicians of Egypt. A day of festival was chosen so that all the people could witness the event.',
         phase: 'quran',
         references: [
           {
             type: 'quran',
             surah: 26,
-            surahName: { en: 'Ash-Shuara', bn: '\u0986\u09B6-\u09B6\u09C1\u0986\u09B0\u09BE', ar: '\u0627\u0644\u0634\u0639\u0631\u0627\u0621' },
-            ayahStart: 61,
-            ayahEnd: 66,
+            surahName: { en: 'Ash-Shu\'ara', bn: 'আশ-শুআরা', ar: 'الشعراء' },
+            ayahStart: 23,
+            ayahEnd: 29,
+            arabicText: 'قَالَ فِرْعَوْنُ وَمَا رَبُّ الْعَالَمِينَ قَالَ رَبُّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا ۖ إِن كُنتُم مُّوقِنِينَ',
             translation: {
-              en: 'And when the two companies saw one another, the companions of Moses said, "Indeed, we are to be overtaken!" [Moses] said, "No! Indeed, with me is my Lord; He will guide me." Then We inspired to Moses, "Strike with your staff the sea," and it parted, and each portion was like a great towering mountain.',
-              bn: '\u09AF\u0996\u09A8 \u09A6\u09C1\u0987 \u09A6\u09B2 \u09AA\u09B0\u09B8\u09CD\u09AA\u09B0\u0995\u09C7 \u09A6\u09C7\u0996\u09B2, \u09AE\u09C2\u09B8\u09BE\u09B0 \u09B8\u09BE\u09A5\u09C0\u09B0\u09BE \u09AC\u09B2\u09B2, "\u0986\u09AE\u09B0\u09BE \u09A4\u09CB \u09A7\u09B0\u09BE \u09AA\u09A1\u09BC\u09C7 \u0997\u09C7\u099B\u09BF!" \u09AE\u09C2\u09B8\u09BE \u09AC\u09B2\u09B2, "\u0995\u0996\u09A8\u09CB\u0987 \u09A8\u09BE! \u0986\u09AE\u09BE\u09B0 \u09B0\u09AC \u0986\u09AE\u09BE\u09B0 \u09B8\u09BE\u09A5\u09C7 \u0986\u099B\u09C7\u09A8; \u09A4\u09BF\u09A8\u09BF \u0986\u09AE\u09BE\u0995\u09C7 \u09AA\u09A5 \u09A6\u09C7\u0996\u09BE\u09AC\u09C7\u09A8\u0964"',
-              ar: '\u0641\u064E\u0644\u064E\u0645\u0651\u064E\u0627 \u062A\u064E\u0631\u064E\u0627\u0621\u064E\u0649 \u0627\u0644\u0652\u062C\u064E\u0645\u0652\u0639\u064E\u0627\u0646\u0650 \u0642\u064E\u0627\u0644\u064E \u0623\u064E\u0635\u0652\u062D\u064E\u0627\u0628\u064F \u0645\u064F\u0648\u0633\u0649\u0670 \u0625\u0650\u0646\u0651\u064E\u0627 \u0644\u064E\u0645\u064F\u062F\u0652\u0631\u064E\u0643\u064F\u0648\u0646\u064E'
+              en: 'Pharaoh said, "And what is the Lord of the worlds?" [Musa] said, "The Lord of the heavens and the earth and that between them, if you should be convinced."',
+              bn: 'ফিরাউন বলল, "বিশ্বজগতের রব কী?" মূসা বলল, "আকাশমণ্ডলী ও পৃথিবী এবং এতদুভয়ের মধ্যবর্তী সবকিছুর রব, যদি তোমরা নিশ্চিত হতে চাও।"',
+              ar: 'قَالَ فِرْعَوْنُ وَمَا رَبُّ الْعَالَمِينَ قَالَ رَبُّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا ۖ إِن كُنتُم مُّوقِنِينَ'
             }
           }
         ]
       },
       {
-        id: 'musa-ch6-p2',
-        text: 'Pharaoh and his army followed the Israelites onto the dry path through the sea. When the last of the believers had crossed and Pharaoh\'s forces were fully within the parted waters, Allah caused the sea to close upon them. As the waves engulfed him, Pharaoh made a desperate declaration of faith, crying out: "I believe that there is no deity except that in whom the Children of Israel believe, and I am of the Muslims." But this last-moment repentance was rejected. Allah responded: "Now? And you had disobeyed before and were of the corrupters?" Allah preserved Pharaoh\'s body as a sign for those who would come after him.',
+        id: 'musa-ch04-p02',
+        text: 'The magicians threw down their ropes and staffs, which through their sorcery appeared to move like serpents. The spectacle terrified the people. But when Musa threw down his staff, it became a real serpent that swallowed everything the magicians had fabricated. The truth was made manifest, and the sorcery was defeated. The magicians — who were the most qualified people on earth to distinguish between magic and a genuine miracle — immediately recognized the truth. They fell into prostration, declaring: "We have believed in the Lord of the worlds, the Lord of Musa and Harun." Pharaoh was enraged: "You believed in him before I gave you permission? I will surely cut off your hands and your feet on opposite sides, and I will crucify you all." But the magicians, now filled with faith, responded with astonishing courage: "No harm. Indeed, to our Lord we will return." In moments they had gone from servants of Pharaoh to martyrs for the truth.',
         phase: 'quran',
         references: [
           {
             type: 'quran',
-            surah: 10,
-            surahName: { en: 'Yunus', bn: '\u0987\u0989\u09A8\u09C1\u09B8', ar: '\u064A\u0648\u0646\u0633' },
-            ayahStart: 90,
-            ayahEnd: 92,
+            surah: 7,
+            surahName: { en: 'Al-A\'raf', bn: 'আল-আ\'রাফ', ar: 'الأعراف' },
+            ayahStart: 120,
+            ayahEnd: 126,
+            arabicText: 'وَأُلْقِيَ السَّحَرَةُ سَاجِدِينَ قَالُوا آمَنَّا بِرَبِّ الْعَالَمِينَ رَبِّ مُوسَىٰ وَهَارُونَ',
             translation: {
-              en: 'And We took the Children of Israel across the sea, and Pharaoh and his soldiers pursued them in tyranny and enmity until, when drowning overtook him, he said, "I believe that there is no deity except that in whom the Children of Israel believe, and I am of the Muslims." Now? And you had disobeyed [Him] before and were of the corrupters? So today We will save you in body that you may be to those who succeed you a sign.',
-              bn: '\u0986\u09AE\u09BF \u09AC\u09A8\u09C0 \u0987\u09B8\u09B0\u09BE\u0988\u09B2\u0995\u09C7 \u09B8\u09AE\u09C1\u09A6\u09CD\u09B0 \u09AA\u09BE\u09B0 \u0995\u09B0\u09BE\u09B2\u09BE\u09AE \u098F\u09AC\u0982 \u09AB\u09BF\u09B0\u09BE\u0989\u09A8 \u0993 \u09A4\u09BE\u09B0 \u09B8\u09C8\u09A8\u09CD\u09AF\u09B0\u09BE \u09A4\u09BE\u09A6\u09C7\u09B0 \u09AA\u09BF\u099B\u09C1 \u09A8\u09BF\u09B2... \u09AF\u0996\u09A8 \u09A1\u09C1\u09AC\u09C7 \u09AF\u09BE\u0993\u09AF\u09BC\u09BE\u09B0 \u0989\u09AA\u0995\u09CD\u09B0\u09AE \u09B9\u09B2, \u09B8\u09C7 \u09AC\u09B2\u09B2, "\u0986\u09AE\u09BF \u09AC\u09BF\u09B6\u09CD\u09AC\u09BE\u09B8 \u0995\u09B0\u09BF \u09AF\u09C7, \u09AC\u09A8\u09C0 \u0987\u09B8\u09B0\u09BE\u0988\u09B2 \u09AF\u09BE\u09A4\u09C7 \u09AC\u09BF\u09B6\u09CD\u09AC\u09BE\u09B8 \u0995\u09B0\u09C7 \u09A4\u09BF\u09A8\u09BF \u099B\u09BE\u09A1\u09BC\u09BE \u0995\u09CB\u09A8\u09CB \u0987\u09B2\u09BE\u09B9 \u09A8\u09C7\u0987\u0964" \u098F\u0996\u09A8? \u0985\u09A5\u099A \u09A4\u09C1\u09AE\u09BF \u0986\u0997\u09C7 \u0985\u09AC\u09BE\u09A7\u09CD\u09AF \u099B\u09BF\u09B2\u09C7\u0964',
-              ar: '\u0648\u064E\u062C\u064E\u0627\u0648\u064E\u0632\u0652\u0646\u064E\u0627 \u0628\u0650\u0628\u064E\u0646\u0650\u064A \u0625\u0650\u0633\u0652\u0631\u064E\u0627\u0626\u0650\u064A\u0644\u064E \u0627\u0644\u0652\u0628\u064E\u062D\u0652\u0631\u064E \u0641\u064E\u0623\u064E\u062A\u0652\u0628\u064E\u0639\u064E\u0647\u064F\u0645\u0652 \u0641\u0650\u0631\u0652\u0639\u064E\u0648\u0652\u0646\u064F \u0648\u064E\u062C\u064F\u0646\u064F\u0648\u062F\u064F\u0647\u064F \u0628\u064E\u063A\u0652\u064A\u064B\u0627 \u0648\u064E\u0639\u064E\u062F\u0652\u0648\u064B\u0627'
+              en: 'And the magicians fell down in prostration. They said, "We have believed in the Lord of the worlds, the Lord of Musa and Harun."',
+              bn: 'যাদুকররা সিজদায় লুটিয়ে পড়ল। তারা বলল, "আমরা বিশ্বজগতের রবের প্রতি ঈমান আনলাম, মূসা ও হারূনের রব।"',
+              ar: 'وَأُلْقِيَ السَّحَرَةُ سَاجِدِينَ قَالُوا آمَنَّا بِرَبِّ الْعَالَمِينَ رَبِّ مُوسَىٰ وَهَارُونَ'
             }
           }
         ]
@@ -277,45 +194,191 @@ const chapters: StoryChapter[] = [
     ]
   },
   {
-    id: 'musa-ch7',
-    title: 'Mount Sinai and the Golden Calf',
-    summary: 'Musa went to Mount Sinai for forty nights to receive the Torah. In his absence, the Samiri made a golden calf which some Israelites worshipped.',
-    order: 7,
+    id: 'musa-ch-05',
+    title: 'The Plagues of Egypt and the Exodus',
+    summary: 'Despite clear signs, Pharaoh continued his tyranny. Allah sent devastating plagues upon Egypt — flood, locusts, lice, frogs, and blood. Each time Pharaoh promised to relent, then broke his word. Finally, Allah commanded Musa to lead the Children of Israel out of Egypt by night.',
+    order: 5,
     paragraphs: [
       {
-        id: 'musa-ch7-p1',
-        text: 'After the drowning of Pharaoh and the safe passage of the Children of Israel, Allah summoned Musa to Mount Sinai for an appointment of forty nights. Allah told Musa to come and appointed for him thirty nights, then completed them with ten more, making a total of forty. Musa left his brother Harun in charge of the people. At the mountain, Allah spoke to Musa and gave him the Tablets containing guidance and detailed explanation of all things, commanding him to hold firmly to them and to order his people to take the best of what was in them.',
+        id: 'musa-ch05-p01',
+        text: 'Despite the defeat of the magicians, Pharaoh refused to believe and intensified his oppression of the Children of Israel. Allah then sent upon Egypt a series of devastating signs: widespread flooding, swarms of locusts that devoured their crops, lice that plagued their bodies, frogs that invaded every corner of their homes, and water that turned to blood. Each plague was a clear sign from Allah. Each time a plague struck, Pharaoh would summon Musa and beg him to pray to his Lord to remove it, promising to release the Israelites. But each time the affliction was lifted, Pharaoh broke his word and returned to his arrogance. Allah says: "So We sent upon them the flood and locusts and lice and frogs and blood as distinct signs, but they were arrogant and were a criminal people."',
         phase: 'quran',
         references: [
           {
             type: 'quran',
             surah: 7,
-            surahName: { en: 'Al-Araf', bn: '\u0986\u09B2-\u0986\u09B0\u09BE\u09AB', ar: '\u0627\u0644\u0623\u0639\u0631\u0627\u0641' },
-            ayahStart: 142,
-            ayahEnd: 145,
+            surahName: { en: 'Al-A\'raf', bn: 'আল-আ\'রাফ', ar: 'الأعراف' },
+            ayahStart: 133,
+            ayahEnd: 133,
+            arabicText: 'فَأَرْسَلْنَا عَلَيْهِمُ الطُّوفَانَ وَالْجَرَادَ وَالْقُمَّلَ وَالضَّفَادِعَ وَالدَّمَ آيَاتٍ مُّفَصَّلَاتٍ فَاسْتَكْبَرُوا وَكَانُوا قَوْمًا مُّجْرِمِينَ',
             translation: {
-              en: 'And We made an appointment with Moses for thirty nights and perfected them by [the addition of] ten; so the term of his Lord was completed as forty nights. And Moses said to his brother Aaron, "Take my place among my people, do right [by them], and do not follow the way of the corrupters." ... And We wrote for him on the tablets [something] of all things.',
-              bn: '\u0986\u09AE\u09BF \u09AE\u09C2\u09B8\u09BE\u09B0 \u09B8\u09BE\u09A5\u09C7 \u09A4\u09CD\u09B0\u09BF\u09B6 \u09B0\u09BE\u09A4\u09C7\u09B0 \u0993\u09AF\u09BC\u09BE\u09A6\u09BE \u0995\u09B0\u09B2\u09BE\u09AE \u098F\u09AC\u0982 \u09A6\u09B6\u099F\u09BF \u09A6\u09CD\u09AC\u09BE\u09B0\u09BE \u09A4\u09BE \u09AA\u09C2\u09B0\u09CD\u09A3 \u0995\u09B0\u09B2\u09BE\u09AE; \u09B8\u09C1\u09A4\u09B0\u09BE\u0982 \u09A4\u09BE\u09B0 \u09B0\u09AC\u09C7\u09B0 \u09A8\u09BF\u09B0\u09CD\u09A7\u09BE\u09B0\u09BF\u09A4 \u09B8\u09AE\u09AF\u09BC \u099A\u09B2\u09CD\u09B2\u09BF\u09B6 \u09B0\u09BE\u09A4\u09C7 \u09AA\u09C2\u09B0\u09CD\u09A3 \u09B9\u09B2\u0964',
-              ar: '\u0648\u064E\u0648\u064E\u0627\u0639\u064E\u062F\u0652\u0646\u064E\u0627 \u0645\u064F\u0648\u0633\u0649\u0670 \u062B\u064E\u0644\u064E\u0627\u062B\u0650\u064A\u0646\u064E \u0644\u064E\u064A\u0652\u0644\u064E\u0629\u064B \u0648\u064E\u0623\u064E\u062A\u0652\u0645\u064E\u0645\u0652\u0646\u064E\u0627\u0647\u064E\u0627 \u0628\u0650\u0639\u064E\u0634\u0652\u0631\u064D'
+              en: 'So We sent upon them the flood and locusts and lice and frogs and blood as distinct signs, but they were arrogant and were a criminal people.',
+              bn: 'আমি তাদের উপর বন্যা, পঙ্গপাল, উকুন, ব্যাঙ ও রক্ত পাঠালাম সুস্পষ্ট নিদর্শন হিসেবে, কিন্তু তারা অহংকার করল এবং তারা ছিল অপরাধী সম্প্রদায়।',
+              ar: 'فَأَرْسَلْنَا عَلَيْهِمُ الطُّوفَانَ وَالْجَرَادَ وَالْقُمَّلَ وَالضَّفَادِعَ وَالدَّمَ آيَاتٍ مُّفَصَّلَاتٍ فَاسْتَكْبَرُوا وَكَانُوا قَوْمًا مُّجْرِمِينَ'
             }
           }
         ]
       },
       {
-        id: 'musa-ch7-p2',
-        text: 'In the absence of Musa, a man named As-Samiri collected golden ornaments from the people and fashioned them into the shape of a calf that produced a lowing sound. He told them: "This is your god and the god of Musa, but he forgot." Some of the Children of Israel fell into worshipping this idol despite having witnessed the miracles of Allah. When Musa returned and saw what had happened, he was filled with anger and grief. He threw down the Tablets, seized his brother Harun by his head, and admonished his people severely. Harun explained that he had tried to stop them but they had overpowered him. Musa then turned his wrath on As-Samiri and banished him, and he burned the golden calf and scattered its remains in the sea.',
+        id: 'musa-ch05-p02',
+        text: 'Finally, after years of oppression and warnings, Allah commanded Musa to lead the Children of Israel out of Egypt under the cover of night. Allah revealed: "Travel by night with My servants and strike for them a dry path through the sea; you will not fear being overtaken nor be afraid." Musa gathered the Israelites and they departed in the darkness. When Pharaoh discovered their escape at dawn, he mobilized his entire army and pursued them with fury. The stage was set for one of the most magnificent miracles in human history.',
+        phase: 'quran',
+        references: [
+          {
+            type: 'quran',
+            surah: 20,
+            surahName: { en: 'Ta-Ha', bn: 'তা-হা', ar: 'طه' },
+            ayahStart: 77,
+            ayahEnd: 78,
+            arabicText: 'وَلَقَدْ أَوْحَيْنَا إِلَىٰ مُوسَىٰ أَنْ أَسْرِ بِعِبَادِي فَاضْرِبْ لَهُمْ طَرِيقًا فِي الْبَحْرِ يَبَسًا لَّا تَخَافُ دَرَكًا وَلَا تَخْشَىٰ فَأَتْبَعَهُمْ فِرْعَوْنُ بِجُنُودِهِ فَغَشِيَهُم مِّنَ الْيَمِّ مَا غَشِيَهُمْ',
+            translation: {
+              en: 'And We had inspired to Musa, "Travel by night with My servants and strike for them a dry path through the sea; you will not fear being overtaken nor be afraid." And Pharaoh pursued them with his soldiers, and there covered them from the sea that which covered them.',
+              bn: 'আমি মূসার কাছে ওহী পাঠালাম, "আমার বান্দাদের নিয়ে রাতে বের হও এবং তাদের জন্য সমুদ্রে শুকনো পথ বানাও; ধরা পড়ার ভয় নেই এবং ডুবে যাওয়ার ভয় নেই।" ফিরাউন তার সৈন্যদের নিয়ে তাদের পিছু নিল।',
+              ar: 'وَلَقَدْ أَوْحَيْنَا إِلَىٰ مُوسَىٰ أَنْ أَسْرِ بِعِبَادِي فَاضْرِبْ لَهُمْ طَرِيقًا فِي الْبَحْرِ يَبَسًا لَّا تَخَافُ دَرَكًا وَلَا تَخْشَىٰ فَأَتْبَعَهُمْ فِرْعَوْنُ بِجُنُودِهِ'
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'musa-ch-06',
+    title: 'Parting of the Sea and the Drowning of Pharaoh',
+    summary: 'Trapped between Pharaoh\'s army and the sea, Musa struck the water with his staff by Allah\'s command. The sea parted into towering walls, and the Israelites crossed safely. Pharaoh and his army followed and were drowned. Pharaoh\'s body was preserved as a sign for all generations.',
+    order: 6,
+    paragraphs: [
+      {
+        id: 'musa-ch06-p01',
+        text: 'The Children of Israel reached the shores of the sea with Pharaoh\'s army closing in behind them. The companions of Musa cried out in terror: "Indeed, we are to be overtaken!" But Musa, firm in his trust in Allah, declared with unwavering certainty: "No! Indeed, with me is my Lord; He will guide me." Allah then commanded Musa to strike the sea with his staff. When he struck, the sea split into two towering walls of water, and a dry path appeared through the middle. The Children of Israel crossed between the walls of water in one of the greatest miracles ever witnessed on earth.',
+        phase: 'quran',
+        references: [
+          {
+            type: 'quran',
+            surah: 26,
+            surahName: { en: 'Ash-Shu\'ara', bn: 'আশ-শুআরা', ar: 'الشعراء' },
+            ayahStart: 61,
+            ayahEnd: 66,
+            arabicText: 'فَلَمَّا تَرَاءَى الْجَمْعَانِ قَالَ أَصْحَابُ مُوسَىٰ إِنَّا لَمُدْرَكُونَ قَالَ كَلَّا ۖ إِنَّ مَعِيَ رَبِّي سَيَهْدِينِ فَأَوْحَيْنَا إِلَىٰ مُوسَىٰ أَنِ اضْرِب بِّعَصَاكَ الْبَحْرَ ۖ فَانفَلَقَ فَكَانَ كُلُّ فِرْقٍ كَالطَّوْدِ الْعَظِيمِ',
+            translation: {
+              en: 'When the two companies saw one another, the companions of Musa said, "Indeed, we are to be overtaken!" He said, "No! Indeed, with me is my Lord; He will guide me." Then We inspired to Musa, "Strike with your staff the sea," and it parted, and each portion was like a great towering mountain.',
+              bn: 'যখন দুই দল পরস্পরকে দেখল, মূসার সাথীরা বলল, "আমরা তো ধরা পড়ে গেছি!" মূসা বলল, "কখনোই না! আমার রব আমার সাথে আছেন; তিনি আমাকে পথ দেখাবেন।" আমি মূসাকে ওহী করলাম, "তোমার লাঠি দিয়ে সমুদ্রে আঘাত কর।" তখন তা বিভক্ত হয়ে গেল এবং প্রতিটি অংশ বিশাল পর্বতের মতো হয়ে গেল।',
+              ar: 'فَلَمَّا تَرَاءَى الْجَمْعَانِ قَالَ أَصْحَابُ مُوسَىٰ إِنَّا لَمُدْرَكُونَ قَالَ كَلَّا ۖ إِنَّ مَعِيَ رَبِّي سَيَهْدِينِ فَأَوْحَيْنَا إِلَىٰ مُوسَىٰ أَنِ اضْرِب بِّعَصَاكَ الْبَحْرَ ۖ فَانفَلَقَ فَكَانَ كُلُّ فِرْقٍ كَالطَّوْدِ الْعَظِيمِ'
+            }
+          }
+        ]
+      },
+      {
+        id: 'musa-ch06-p02',
+        text: 'Pharaoh and his army, blinded by their arrogance, followed the Israelites onto the dry path through the sea. When the last of the believers had crossed and Pharaoh\'s forces were fully within the parted waters, Allah caused the sea to crash down upon them. As the waves engulfed him, Pharaoh made a desperate declaration: "I believe that there is no deity except that in whom the Children of Israel believe, and I am of the Muslims!" But this deathbed repentance was rejected. Allah responded: "Now? And you had disobeyed before and were of the corrupters?" Allah then declared: "So today We will save you in body that you may be to those who succeed you a sign." Pharaoh\'s preserved body stands as a sign to this day — a warning to every tyrant who dares to claim divinity and oppress the servants of Allah.',
+        phase: 'quran',
+        references: [
+          {
+            type: 'quran',
+            surah: 10,
+            surahName: { en: 'Yunus', bn: 'ইউনুস', ar: 'يونس' },
+            ayahStart: 90,
+            ayahEnd: 92,
+            arabicText: 'حَتَّىٰ إِذَا أَدْرَكَهُ الْغَرَقُ قَالَ آمَنتُ أَنَّهُ لَا إِلَٰهَ إِلَّا الَّذِي آمَنَتْ بِهِ بَنُو إِسْرَائِيلَ وَأَنَا مِنَ الْمُسْلِمِينَ آلْآنَ وَقَدْ عَصَيْتَ قَبْلُ وَكُنتَ مِنَ الْمُفْسِدِينَ فَالْيَوْمَ نُنَجِّيكَ بِبَدَنِكَ لِتَكُونَ لِمَنْ خَلْفَكَ آيَةً',
+            translation: {
+              en: 'Until, when drowning overtook him, he said, "I believe that there is no deity except that in whom the Children of Israel believe." Now? And you had disobeyed before? So today We will save you in body that you may be to those who succeed you a sign.',
+              bn: 'যখন ডুবে যাওয়া তাকে ঘিরে ফেলল, সে বলল, "আমি বিশ্বাস করি যে বনী ইসরাঈল যাতে বিশ্বাস করে তিনি ছাড়া কোনো ইলাহ নেই।" এখন? অথচ তুমি আগে অবাধ্য ছিলে? আজ আমি তোমার দেহ রক্ষা করব যাতে তুমি তোমার পরবর্তীদের জন্য নিদর্শন হও।',
+              ar: 'حَتَّىٰ إِذَا أَدْرَكَهُ الْغَرَقُ قَالَ آمَنتُ أَنَّهُ لَا إِلَٰهَ إِلَّا الَّذِي آمَنَتْ بِهِ بَنُو إِسْرَائِيلَ وَأَنَا مِنَ الْمُسْلِمِينَ آلْآنَ وَقَدْ عَصَيْتَ قَبْلُ وَكُنتَ مِنَ الْمُفْسِدِينَ فَالْيَوْمَ نُنَجِّيكَ بِبَدَنِكَ لِتَكُونَ لِمَنْ خَلْفَكَ آيَةً'
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'musa-ch-07',
+    title: 'Mount Sinai, the Torah, and the Golden Calf',
+    summary: 'After the exodus, Musa ascended Mount Sinai for forty nights to receive the Torah. In his absence, As-Samiri fashioned a golden calf which some Israelites worshipped. Musa returned in grief and anger, confronted the idolaters, and destroyed the calf.',
+    order: 7,
+    paragraphs: [
+      {
+        id: 'musa-ch07-p01',
+        text: 'After the drowning of Pharaoh, Allah summoned Musa to Mount Sinai. Allah had appointed thirty nights, then completed them with ten more — a total of forty nights of communion with the Lord of the worlds. Musa left his brother Harun in charge, instructing him: "Take my place among my people, do right by them, and do not follow the way of the corrupters." At the mountain, Allah spoke to Musa directly and gave him the Tablets containing guidance, mercy, and a detailed explanation of all things. Allah commanded Musa to hold firmly to them and to instruct his people to adhere to the best of their teachings. During this sacred meeting, Musa asked to see Allah. He was told: "You will not see Me, but look at the mountain; if it remains in its place, then you will see Me." When Allah manifested His glory to the mountain, it crumbled to dust, and Musa fell unconscious. When he recovered, he said: "Exalted are You! I have repented to You, and I am the first of the believers."',
         phase: 'quran',
         references: [
           {
             type: 'quran',
             surah: 7,
-            surahName: { en: 'Al-Araf', bn: '\u0986\u09B2-\u0986\u09B0\u09BE\u09AB', ar: '\u0627\u0644\u0623\u0639\u0631\u0627\u0641' },
-            ayahStart: 148,
-            ayahEnd: 154,
+            surahName: { en: 'Al-A\'raf', bn: 'আল-আ\'রাফ', ar: 'الأعراف' },
+            ayahStart: 142,
+            ayahEnd: 143,
+            arabicText: 'وَوَاعَدْنَا مُوسَىٰ ثَلَاثِينَ لَيْلَةً وَأَتْمَمْنَاهَا بِعَشْرٍ فَتَمَّ مِيقَاتُ رَبِّهِ أَرْبَعِينَ لَيْلَةً',
             translation: {
-              en: 'And the people of Moses made, after [his departure], from their ornaments a calf - an image having a lowing sound. Did they not see that it could neither speak to them nor guide them to a way? They took it [for worship], and they were wrongdoers.',
-              bn: '\u09AE\u09C2\u09B8\u09BE\u09B0 \u099C\u09BE\u09A4\u09BF \u09A4\u09BE\u09B0 [\u099A\u09B2\u09C7 \u09AF\u09BE\u0993\u09AF\u09BC\u09BE\u09B0] \u09AA\u09B0 \u09A4\u09BE\u09A6\u09C7\u09B0 \u0985\u09B2\u0982\u0995\u09BE\u09B0 \u09A5\u09C7\u0995\u09C7 \u098F\u0995\u099F\u09BF \u09AC\u09BE\u099B\u09C1\u09B0 \u09AE\u09C2\u09B0\u09CD\u09A4\u09BF \u09AC\u09BE\u09A8\u09BE\u09B2 \u09AF\u09BE \u09B9\u09BE\u09AE\u09CD\u09AC\u09BE\u09B0 \u09B6\u09AC\u09CD\u09A6 \u0995\u09B0\u09A4\u0964',
-              ar: '\u0648\u064E\u0627\u062A\u0651\u064E\u062E\u064E\u0630\u064E \u0642\u064E\u0648\u0652\u0645\u064F \u0645\u064F\u0648\u0633\u0649\u0670 \u0645\u0650\u0646 \u0628\u064E\u0639\u0652\u062F\u0650\u0647\u0650 \u0645\u0650\u0646\u0652 \u062D\u064F\u0644\u0650\u064A\u0651\u0650\u0647\u0650\u0645\u0652 \u0639\u0650\u062C\u0652\u0644\u064B\u0627 \u062C\u064E\u0633\u064E\u062F\u064B\u0627 \u0644\u0651\u064E\u0647\u064F \u062E\u064F\u0648\u064E\u0627\u0631\u064C'
+              en: 'And We made an appointment with Musa for thirty nights and perfected them by the addition of ten; so the term of his Lord was completed as forty nights.',
+              bn: 'আমি মূসার সাথে ত্রিশ রাতের ওয়াদা করলাম এবং আরও দশ দিয়ে তা পূর্ণ করলাম; সুতরাং তার রবের নির্ধারিত সময় চল্লিশ রাতে পূর্ণ হলো।',
+              ar: 'وَوَاعَدْنَا مُوسَىٰ ثَلَاثِينَ لَيْلَةً وَأَتْمَمْنَاهَا بِعَشْرٍ فَتَمَّ مِيقَاتُ رَبِّهِ أَرْبَعِينَ لَيْلَةً'
+            }
+          }
+        ]
+      },
+      {
+        id: 'musa-ch07-p02',
+        text: 'In the absence of Musa, a man named As-Samiri collected golden ornaments from the people and fashioned them into the shape of a calf that produced a lowing sound. He told them: "This is your god and the god of Musa, but he forgot." Many of the Israelites fell into worshipping this idol — despite having witnessed the miracles of Allah with their own eyes. Harun tried to stop them, saying: "O my people, you are only being tested by it, and indeed, your Lord is the Most Merciful, so follow me and obey my command." But they overpowered him. When Musa returned and saw what had happened, he was filled with anger and grief. He threw down the Tablets, seized Harun by his head and beard, and admonished his people. Then he confronted As-Samiri and banished him. The golden calf was burned and its ashes scattered in the sea. Musa then selected seventy men from his people to go to the appointed meeting with Allah to repent for this grave sin.',
+        phase: 'quran',
+        references: [
+          {
+            type: 'quran',
+            surah: 20,
+            surahName: { en: 'Ta-Ha', bn: 'তা-হা', ar: 'طه' },
+            ayahStart: 88,
+            ayahEnd: 91,
+            arabicText: 'فَأَخْرَجَ لَهُمْ عِجْلًا جَسَدًا لَّهُ خُوَارٌ فَقَالُوا هَٰذَا إِلَٰهُكُمْ وَإِلَٰهُ مُوسَىٰ فَنَسِيَ',
+            translation: {
+              en: 'And he extracted for them [the statue of] a calf which had a lowing sound, and they said, "This is your god and the god of Musa, but he forgot."',
+              bn: 'সে তাদের জন্য একটি বাছুরের মূর্তি বের করল যা হাম্বার শব্দ করত, এবং তারা বলল, "এটাই তোমাদের ইলাহ এবং মূসার ইলাহ, কিন্তু সে ভুলে গেছে।"',
+              ar: 'فَأَخْرَجَ لَهُمْ عِجْلًا جَسَدًا لَّهُ خُوَارٌ فَقَالُوا هَٰذَا إِلَٰهُكُمْ وَإِلَٰهُ مُوسَىٰ فَنَسِيَ'
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'musa-ch-08',
+    title: 'Musa and Al-Khidr: A Journey of Hidden Wisdom',
+    summary: 'Allah sent Musa on a journey with Al-Khidr — a righteous servant granted special knowledge. Through three mysterious events — damaging a boat, taking a life, and repairing a wall — Al-Khidr revealed that divine wisdom operates beyond human perception.',
+    order: 8,
+    paragraphs: [
+      {
+        id: 'musa-ch08-p01',
+        text: 'One of the most remarkable episodes in Musa\'s life is his journey with Al-Khidr, narrated in Surah Al-Kahf. Allah informed Musa that there was a servant at the junction of the two seas who possessed knowledge that Musa did not have. Musa traveled with his young companion Yusha ibn Nun until they found Al-Khidr. Musa asked to follow him and learn from his knowledge. Al-Khidr warned: "Indeed, with me you will never be able to have patience. And how can you have patience for what you do not encompass in knowledge?" Musa promised to be patient. Al-Khidr set the condition: "Then if you follow me, do not question me about anything until I myself mention it to you."',
+        phase: 'quran',
+        references: [
+          {
+            type: 'quran',
+            surah: 18,
+            surahName: { en: 'Al-Kahf', bn: 'আল-কাহফ', ar: 'الكهف' },
+            ayahStart: 66,
+            ayahEnd: 70,
+            arabicText: 'قَالَ لَهُ مُوسَىٰ هَلْ أَتَّبِعُكَ عَلَىٰ أَن تُعَلِّمَنِ مِمَّا عُلِّمْتَ رُشْدًا قَالَ إِنَّكَ لَن تَسْتَطِيعَ مَعِيَ صَبْرًا وَكَيْفَ تَصْبِرُ عَلَىٰ مَا لَمْ تُحِطْ بِهِ خُبْرًا',
+            translation: {
+              en: 'Musa said to him, "May I follow you on the condition that you teach me from what you have been taught of sound judgement?" He said, "Indeed, with me you will never be able to have patience. And how can you have patience for what you do not encompass in knowledge?"',
+              bn: 'মূসা তাকে বলল, "আমি কি তোমাকে অনুসরণ করতে পারি এই শর্তে যে তুমি আমাকে সেই জ্ঞান শেখাবে যা তোমাকে শেখানো হয়েছে?" সে বলল, "তুমি আমার সাথে ধৈর্য ধরতে পারবে না। তুমি যা জানো না তাতে কীভাবে ধৈর্য ধরবে?"',
+              ar: 'قَالَ لَهُ مُوسَىٰ هَلْ أَتَّبِعُكَ عَلَىٰ أَن تُعَلِّمَنِ مِمَّا عُلِّمْتَ رُشْدًا قَالَ إِنَّكَ لَن تَسْتَطِيعَ مَعِيَ صَبْرًا وَكَيْفَ تَصْبِرُ عَلَىٰ مَا لَمْ تُحِطْ بِهِ خُبْرًا'
+            }
+          }
+        ]
+      },
+      {
+        id: 'musa-ch08-p02',
+        text: 'They set out together, and three extraordinary events unfolded. First, Al-Khidr damaged a boat belonging to poor fishermen by making a hole in it. Musa objected: "Have you torn it open to drown its people?" Second, Al-Khidr encountered a young boy and took his life. Musa protested: "Have you killed a pure soul for other than having killed a soul?" Third, they arrived at a town whose people refused them hospitality, yet Al-Khidr repaired a collapsing wall for free. Musa questioned why he did not ask for payment. Al-Khidr then said: "This is the parting between me and you. I will inform you of the interpretation of that about which you could not have patience." He explained: the boat belonged to poor people, and a king was seizing every good boat — the damage saved it from confiscation. The boy was destined to grow up as a disbeliever who would have burdened his righteous parents with transgression — Allah would replace him with a child better in purity and closer in mercy. The wall concealed treasure belonging to two orphan boys whose father had been righteous — Allah wished to protect their inheritance until they grew strong enough to retrieve it. Al-Khidr concluded: "And I did not do it of my own accord. That is the interpretation of that about which you could not have patience." This story teaches that Allah\'s wisdom encompasses what human beings cannot perceive, and that apparent hardship may conceal divine mercy.',
+        phase: 'quran',
+        references: [
+          {
+            type: 'quran',
+            surah: 18,
+            surahName: { en: 'Al-Kahf', bn: 'আল-কাহফ', ar: 'الكهف' },
+            ayahStart: 79,
+            ayahEnd: 82,
+            arabicText: 'أَمَّا السَّفِينَةُ فَكَانَتْ لِمَسَاكِينَ يَعْمَلُونَ فِي الْبَحْرِ فَأَرَدتُّ أَنْ أَعِيبَهَا وَكَانَ وَرَاءَهُم مَّلِكٌ يَأْخُذُ كُلَّ سَفِينَةٍ غَصْبًا',
+            translation: {
+              en: 'As for the ship, it belonged to poor people working at sea. So I intended to cause defect in it as there was after them a king who seized every good ship by force.',
+              bn: 'নৌকাটি ছিল কিছু গরিব লোকের যারা সমুদ্রে কাজ করত। আমি তাতে ত্রুটি করতে চেয়েছিলাম কারণ তাদের পেছনে একজন রাজা ছিল যে প্রতিটি ভালো নৌকা জোরপূর্বক ছিনিয়ে নিত।',
+              ar: 'أَمَّا السَّفِينَةُ فَكَانَتْ لِمَسَاكِينَ يَعْمَلُونَ فِي الْبَحْرِ فَأَرَدتُّ أَنْ أَعِيبَهَا وَكَانَ وَرَاءَهُم مَّلِكٌ يَأْخُذُ كُلَّ سَفِينَةٍ غَصْبًا'
             }
           }
         ]

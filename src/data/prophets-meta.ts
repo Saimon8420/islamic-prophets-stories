@@ -39,7 +39,7 @@ export const prophetsMeta: ProphetMeta[] = [
       { en: 'Raised to a high station', bn: 'উচ্চ মর্যাদায় উন্নীত', ar: 'رُفع مكاناً علياً' },
     ],
     quranMentionCount: 2,
-    chapterCount: 2,
+    chapterCount: 4,
   },
   {
     id: 'nuh',
@@ -74,7 +74,7 @@ export const prophetsMeta: ProphetMeta[] = [
     ],
     miracles: [],
     quranMentionCount: 7,
-    chapterCount: 3,
+    chapterCount: 4,
   },
   {
     id: 'salih',
@@ -92,7 +92,7 @@ export const prophetsMeta: ProphetMeta[] = [
       { en: 'She-Camel emerging from a rock', bn: 'পাথর থেকে উষ্ট্রী বের হওয়া', ar: 'خروج الناقة من الصخرة' },
     ],
     quranMentionCount: 9,
-    chapterCount: 3,
+    chapterCount: 4,
   },
   {
     id: 'ibrahim',
@@ -114,7 +114,7 @@ export const prophetsMeta: ProphetMeta[] = [
       { en: 'Birds brought back to life', bn: 'পাখিদের জীবিত করা', ar: 'إحياء الطيور' },
     ],
     quranMentionCount: 69,
-    chapterCount: 10,
+    chapterCount: 6,
   },
   {
     id: 'lut',
@@ -130,7 +130,7 @@ export const prophetsMeta: ProphetMeta[] = [
     ],
     miracles: [],
     quranMentionCount: 27,
-    chapterCount: 3,
+    chapterCount: 4,
   },
   {
     id: 'ismail',
@@ -150,7 +150,7 @@ export const prophetsMeta: ProphetMeta[] = [
       { en: 'Zamzam spring in the desert', bn: 'মরুভূমিতে যমযম ঝর্ণা', ar: 'نبع زمزم في الصحراء' },
     ],
     quranMentionCount: 12,
-    chapterCount: 4,
+    chapterCount: 3,
   },
   {
     id: 'ishaq',
@@ -167,7 +167,7 @@ export const prophetsMeta: ProphetMeta[] = [
       { en: 'Miraculous birth to Sarah in old age', bn: 'বৃদ্ধ বয়সে সারাহর মুজিযামূলক সন্তান', ar: 'ولادة معجزة لسارة في كبرها' },
     ],
     quranMentionCount: 17,
-    chapterCount: 2,
+    chapterCount: 3,
   },
   {
     id: 'yaqub',
@@ -186,7 +186,7 @@ export const prophetsMeta: ProphetMeta[] = [
       { en: 'Sight restored by Yusuf\'s shirt', bn: 'ইউসুফের জামায় দৃষ্টি ফিরে পাওয়া', ar: 'استعادة البصر بقميص يوسف' },
     ],
     quranMentionCount: 16,
-    chapterCount: 3,
+    chapterCount: 4,
   },
   {
     id: 'yusuf',
@@ -211,7 +211,7 @@ export const prophetsMeta: ProphetMeta[] = [
       { en: 'Given half of all beauty', bn: 'সকল সৌন্দর্যের অর্ধেক', ar: 'أُعطي شطر الحسن' },
     ],
     quranMentionCount: 27,
-    chapterCount: 10,
+    chapterCount: 7,
   },
   {
     id: 'ayyub',
@@ -246,7 +246,7 @@ export const prophetsMeta: ProphetMeta[] = [
     ],
     miracles: [],
     quranMentionCount: 11,
-    chapterCount: 3,
+    chapterCount: 4,
   },
   {
     id: 'musa',
@@ -272,7 +272,7 @@ export const prophetsMeta: ProphetMeta[] = [
       { en: 'Water from the rock', bn: 'পাথর থেকে পানি', ar: 'الماء من الصخرة' },
     ],
     quranMentionCount: 136,
-    chapterCount: 15,
+    chapterCount: 8,
   },
   {
     id: 'harun',
@@ -358,7 +358,7 @@ export const prophetsMeta: ProphetMeta[] = [
     ],
     miracles: [],
     quranMentionCount: 2,
-    chapterCount: 2,
+    chapterCount: 3,
   },
   {
     id: 'al-yasa',
@@ -455,7 +455,7 @@ export const prophetsMeta: ProphetMeta[] = [
       { en: 'Created a bird from clay', bn: 'মাটি থেকে পাখি তৈরি', ar: 'خلق طائر من الطين' },
     ],
     quranMentionCount: 25,
-    chapterCount: 8,
+    chapterCount: 6,
   },
   {
     id: 'muhammad',
@@ -481,6 +481,6 @@ export const prophetsMeta: ProphetMeta[] = [
       { en: 'Water flowing from his fingers', bn: 'আঙুলের মাঝ থেকে পানি প্রবাহিত', ar: 'نبع الماء من بين أصابعه' },
     ],
     quranMentionCount: 4,
-    chapterCount: 15,
+    chapterCount: 8,
   },
 ];
