@@ -485,7 +485,7 @@ const chapters: StoryChapter[] = [
           {
             type: 'quran',
             surah: 68,
-            surahName: { en: 'Al-Qalam', bn: 'আল-কলম', ar: 'القলم' },
+            surahName: { en: 'Al-Qalam', bn: 'আল-কলম', ar: 'القلم' },
             ayahStart: 4,
             arabicText: 'وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍ',
             translation: {
@@ -497,7 +497,7 @@ const chapters: StoryChapter[] = [
           {
             type: 'quran',
             surah: 3,
-            surahName: { en: 'Al-Imran', bn: 'আলে-ইমরান', ar: 'آল عمران' },
+            surahName: { en: 'Al-Imran', bn: 'আলে-ইমরান', ar: 'آل عمران' },
             ayahStart: 144,
             arabicText: 'وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ قَدْ خَلَتْ مِن قَبْلِهِ الرُّسُلُ ۚ أَفَإِن مَّاتَ أَوْ قُتِلَ انقَلَبْتُمْ عَلَىٰ أَعْقَابِكُمْ',
             translation: {

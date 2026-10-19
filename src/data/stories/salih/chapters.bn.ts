@@ -255,7 +255,7 @@ const chapters: StoryChapter[] = [
           {
             type: 'quran',
             surah: 27,
-            surahName: { en: 'An-Naml', bn: 'আন-নামল', ar: 'النمল' },
+            surahName: { en: 'An-Naml', bn: 'আন-নামল', ar: 'النمل' },
             ayahStart: 52,
             arabicText: 'فَتِلْكَ بُيُوتُهُمْ خَاوِيَةً بِمَا ظَلَمُوا ۗ إِنَّ فِي ذَٰلِكَ لَآيَةً لِّقَوْمٍ يَعْلَمُونَ',
             translation: {
