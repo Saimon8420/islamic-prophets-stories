@@ -87,14 +87,19 @@ const kidsLoaders: Record<string, KidsLoader> = {
   'adam-en': () => import('../data/stories/adam/kids.en'),
   'adam-bn': () => import('../data/stories/adam/kids.bn'),
   'adam-ar': () => import('../data/stories/adam/kids.ar'),
+  'idris-en': () => import('../data/stories/idris/kids.en'),
+  'idris-bn': () => import('../data/stories/idris/kids.bn'),
+  'idris-ar': () => import('../data/stories/idris/kids.ar'),
 };
 
 const quizLoaders: Record<string, QuizLoader> = {
   'adam': () => import('../data/stories/adam/quiz'),
+  'idris': () => import('../data/stories/idris/quiz'),
 };
 
 const lessonLoaders: Record<string, LessonLoader> = {
   'adam': () => import('../data/stories/adam/lessons'),
+  'idris': () => import('../data/stories/idris/lessons'),
 };
 
 export async function loadProphetChapters(prophetId: ProphetId, language: Language): Promise<StoryChapter[]> {
