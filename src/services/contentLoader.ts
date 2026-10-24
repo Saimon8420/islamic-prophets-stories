@@ -132,6 +132,12 @@ const kidsLoaders: Record<string, KidsLoader> = {
   'dhul-kifl-en': () => import('../data/stories/dhul-kifl/kids.en'),
   'dhul-kifl-bn': () => import('../data/stories/dhul-kifl/kids.bn'),
   'dhul-kifl-ar': () => import('../data/stories/dhul-kifl/kids.ar'),
+  'dawud-en': () => import('../data/stories/dawud/kids.en'),
+  'dawud-bn': () => import('../data/stories/dawud/kids.bn'),
+  'dawud-ar': () => import('../data/stories/dawud/kids.ar'),
+  'sulayman-en': () => import('../data/stories/sulayman/kids.en'),
+  'sulayman-bn': () => import('../data/stories/sulayman/kids.bn'),
+  'sulayman-ar': () => import('../data/stories/sulayman/kids.ar'),
 };
 
 const quizLoaders: Record<string, QuizLoader> = {
@@ -151,6 +157,8 @@ const quizLoaders: Record<string, QuizLoader> = {
   'musa': () => import('../data/stories/musa/quiz'),
   'harun': () => import('../data/stories/harun/quiz'),
   'dhul-kifl': () => import('../data/stories/dhul-kifl/quiz'),
+  'dawud': () => import('../data/stories/dawud/quiz'),
+  'sulayman': () => import('../data/stories/sulayman/quiz'),
 };
 
 const lessonLoaders: Record<string, LessonLoader> = {
@@ -170,6 +178,8 @@ const lessonLoaders: Record<string, LessonLoader> = {
   'musa': () => import('../data/stories/musa/lessons'),
   'harun': () => import('../data/stories/harun/lessons'),
   'dhul-kifl': () => import('../data/stories/dhul-kifl/lessons'),
+  'dawud': () => import('../data/stories/dawud/lessons'),
+  'sulayman': () => import('../data/stories/sulayman/lessons'),
 };
 
 export async function loadProphetChapters(prophetId: ProphetId, language: Language): Promise<StoryChapter[]> {
