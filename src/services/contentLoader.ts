@@ -138,6 +138,15 @@ const kidsLoaders: Record<string, KidsLoader> = {
   'sulayman-en': () => import('../data/stories/sulayman/kids.en'),
   'sulayman-bn': () => import('../data/stories/sulayman/kids.bn'),
   'sulayman-ar': () => import('../data/stories/sulayman/kids.ar'),
+  'ilyas-en': () => import('../data/stories/ilyas/kids.en'),
+  'ilyas-bn': () => import('../data/stories/ilyas/kids.bn'),
+  'ilyas-ar': () => import('../data/stories/ilyas/kids.ar'),
+  'al-yasa-en': () => import('../data/stories/al-yasa/kids.en'),
+  'al-yasa-bn': () => import('../data/stories/al-yasa/kids.bn'),
+  'al-yasa-ar': () => import('../data/stories/al-yasa/kids.ar'),
+  'yunus-en': () => import('../data/stories/yunus/kids.en'),
+  'yunus-bn': () => import('../data/stories/yunus/kids.bn'),
+  'yunus-ar': () => import('../data/stories/yunus/kids.ar'),
 };
 
 const quizLoaders: Record<string, QuizLoader> = {
@@ -159,6 +168,9 @@ const quizLoaders: Record<string, QuizLoader> = {
   'dhul-kifl': () => import('../data/stories/dhul-kifl/quiz'),
   'dawud': () => import('../data/stories/dawud/quiz'),
   'sulayman': () => import('../data/stories/sulayman/quiz'),
+  'ilyas': () => import('../data/stories/ilyas/quiz'),
+  'al-yasa': () => import('../data/stories/al-yasa/quiz'),
+  'yunus': () => import('../data/stories/yunus/quiz'),
 };
 
 const lessonLoaders: Record<string, LessonLoader> = {
@@ -180,6 +192,9 @@ const lessonLoaders: Record<string, LessonLoader> = {
   'dhul-kifl': () => import('../data/stories/dhul-kifl/lessons'),
   'dawud': () => import('../data/stories/dawud/lessons'),
   'sulayman': () => import('../data/stories/sulayman/lessons'),
+  'ilyas': () => import('../data/stories/ilyas/lessons'),
+  'al-yasa': () => import('../data/stories/al-yasa/lessons'),
+  'yunus': () => import('../data/stories/yunus/lessons'),
 };
 
 export async function loadProphetChapters(prophetId: ProphetId, language: Language): Promise<StoryChapter[]> {
