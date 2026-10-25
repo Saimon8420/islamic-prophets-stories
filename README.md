@@ -1,18 +1,31 @@
 # Prophets of Islam Stories
 
-An interactive app to explore the stories of the 25 Prophets of Islam, with verified references from the Quran, Ibn Kathir's *Stories of the Prophets*, and Sahih Hadith collections.
+The stories of the 25 prophets named in the Quran, told as an illuminated storybook in **English, Bangla and Arabic**. Every paragraph carries its source: a Quran ayah, a sahih hadith, or Ibn Kathir's *Stories of the Prophets*.
+
+**Live:** https://islamic-prophets-stories.vercel.app
 
 ## Features
 
-- Stories of all 25 Prophets with authentic references
-- Quran verses displayed in Arabic with translations
-- Multi-language support (English, Bengali, Arabic)
-- Dark/Light theme
-- Reading progress tracking and bookmarks
-- Full-text search across all stories
-- Timeline view of prophets
-- Kids mode with simplified stories and quizzes
-- Works offline as a PWA and native Android app
+- **All 25 prophets, complete** — from Adam (AS) to Muhammad ﷺ, each with:
+  - the full story in chapters, with tappable source tags that open the ayah or hadith text
+  - a children's version in simple, gentle language
+  - a quiz to test what was learned
+  - lessons for daily life, each backed by a reference
+- **Three languages** — English, Bangla and Arabic (right-to-left), with local digits
+- **Book reader** — two-page spreads on desktop, a single scrolling page on phones, a title page per prophet
+- **Lineage scroll** — how the prophets are related, with a source for every link
+- **Timeline** of the prophets
+- **Saved passages** and **full-text search** across all stories
+- Light and dark themes, adjustable text size
+- Android app (works offline)
+
+## Sources
+
+- **Quran** — Arabic text with translations
+- **Hadith** — sahih and hasan narrations from Bukhari, Muslim and the other canonical collections
+- **Ibn Kathir** — *Qasas al-Anbiya*, used only where it restates the Quran or sahih hadith
+
+Weak narrations and isra'iliyyat are left out. Quiz answers rest on the Quran or sahih hadith only.
 
 ## Download
 
@@ -26,8 +39,9 @@ Download the latest Android APK from the [Releases page](https://github.com/Saim
 - **Build:** Vite 7
 - **Mobile:** Capacitor 7 (Android)
 - **State:** Zustand
-- **UI Components:** Radix UI
-- **CI/CD:** GitHub Actions
+- **UI:** Radix UI, Lucide icons
+- **Fonts:** EB Garamond, Tiro Bangla, Amiri (self-hosted via Fontsource)
+- **CI/CD:** GitHub Actions (APK builds), Vercel (web)
 
 ## Getting Started
 
@@ -60,6 +74,19 @@ npm run cap:open
 
 # Build APK directly
 npm run build:apk
+```
+
+## Project Structure
+
+```
+src/data/stories/<prophet>/
+  chapters.en.ts  chapters.bn.ts  chapters.ar.ts   # full story
+  kids.en.ts      kids.bn.ts      kids.ar.ts       # children's version
+  quiz.ts                                          # trilingual quiz
+  lessons.ts                                       # trilingual lessons
+src/data/lineage.ts                                # family links with sources
+src/services/contentLoader.ts                      # lazy-loads content per prophet and language
+src/components/book/                               # storybook UI
 ```
 
 ## License
