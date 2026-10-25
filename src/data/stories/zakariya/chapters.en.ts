@@ -34,7 +34,7 @@ const chapters: StoryChapter[] = [
           {
             type: 'quran',
             surah: 3,
-            surahName: { en: 'Al-Imran', bn: 'আলে-ইমরান', ar: 'آল عمران' },
+            surahName: { en: 'Al-Imran', bn: 'আলে-ইমরান', ar: 'آل عمران' },
             ayahStart: 38,
             arabicText: 'هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُ ۖ قَالَ رَبِّ هَبْ لِي مِن لَّدُنكَ ذُرِّيَّةً طَيِّبَةً ۖ إِنَّكَ سَمِيعُ الدُّعَاءِ',
             translation: {
